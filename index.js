@@ -983,7 +983,7 @@ client.on("ready", async (message) => {
 
         )
         .setTimestamp()
-        .setFooter({ text: "Surviria", iconURL: 'https://cdn.discordapp.com/attachments/624265091000434699/1009407552720744578/Lettre0.5x.png' })
+        .setFooter({ text: "SurviriaBot", iconURL: 'https://cdn.discordapp.com/attachments/624265091000434699/1009407552720744578/Lettre0.5x.png' })
 
     await channel.send({ content: `<@&${config.roles.owner_id}>`, embeds: [embed] })
 });
