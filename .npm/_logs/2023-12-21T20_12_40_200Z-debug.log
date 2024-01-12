@@ -1,0 +1,1246 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--production'
+1 verbose cli ]
+2 info using npm@6.14.12
+3 info using node@v12.22.1
+4 verbose config Skipping project config: /home/container/.npmrc. (matches userconfig)
+5 verbose npm-session 3a23cc1c679bf60b
+6 silly install runPreinstallTopLevelLifecycles
+7 silly preinstall surviria@1.0.0
+8 info lifecycle surviria@1.0.0~preinstall: surviria@1.0.0
+9 silly install loadCurrentTree
+10 silly install readLocalPackageData
+11 timing stage:loadCurrentTree Completed in 254ms
+12 silly install loadIdealTree
+13 silly install cloneCurrentTreeToIdealTree
+14 timing stage:loadIdealTree:cloneCurrentTree Completed in 2ms
+15 silly install loadShrinkwrap
+16 warn read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but package-lock.json was generated for lockfileVersion@3. I'll try to do my best with it!
+17 timing stage:loadIdealTree:loadShrinkwrap Completed in 67ms
+18 silly install loadAllDepsIntoIdealTree
+19 silly removeObsoleteDep removing @discordjs/rest@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+20 silly removeObsoleteDep removing discord-api-types@0.37.66 from the tree as its been replaced by a newer version or is no longer required
+21 silly removeObsoleteDep removing file-type@17.1.6 from the tree as its been replaced by a newer version or is no longer required
+22 silly removeObsoleteDep removing readable-web-to-node-stream@3.0.2 from the tree as its been replaced by a newer version or is no longer required
+23 silly removeObsoleteDep removing readable-stream@3.6.2 from the tree as its been replaced by a newer version or is no longer required
+24 silly removeObsoleteDep removing strtok3@7.0.0 from the tree as its been replaced by a newer version or is no longer required
+25 silly removeObsoleteDep removing @tokenizer/token@0.3.0 from the tree as its been replaced by a newer version or is no longer required
+26 silly removeObsoleteDep removing peek-readable@5.0.0 from the tree as its been replaced by a newer version or is no longer required
+27 silly removeObsoleteDep removing token-types@5.0.1 from the tree as its been replaced by a newer version or is no longer required
+28 silly removeObsoleteDep removing ieee754@1.2.1 from the tree as its been replaced by a newer version or is no longer required
+29 silly removeObsoleteDep removing undici@5.28.2 from the tree as its been replaced by a newer version or is no longer required
+30 silly removeObsoleteDep removing axios@0.27.2 from the tree as its been replaced by a newer version or is no longer required
+31 silly removeObsoleteDep removing body-parser@1.20.0 from the tree as its been replaced by a newer version or is no longer required
+32 silly removeObsoleteDep removing raw-body@2.5.1 from the tree as its been replaced by a newer version or is no longer required
+33 silly removeObsoleteDep removing bytes@3.1.2 from the tree as its been replaced by a newer version or is no longer required
+34 silly removeObsoleteDep removing iconv-lite@0.4.24 from the tree as its been replaced by a newer version or is no longer required
+35 silly removeObsoleteDep removing safer-buffer@2.1.2 from the tree as its been replaced by a newer version or is no longer required
+36 silly removeObsoleteDep removing discord.js@14.14.1 from the tree as its been replaced by a newer version or is no longer required
+37 silly removeObsoleteDep removing @discordjs/collection@1.5.3 from the tree as its been replaced by a newer version or is no longer required
+38 silly removeObsoleteDep removing lodash.snakecase@4.1.1 from the tree as its been replaced by a newer version or is no longer required
+39 silly removeObsoleteDep removing @discordjs/builders@1.7.0 from the tree as its been replaced by a newer version or is no longer required
+40 silly removeObsoleteDep removing @sapphire/shapeshift@3.9.5 from the tree as its been replaced by a newer version or is no longer required
+41 silly removeObsoleteDep removing fast-deep-equal@3.1.3 from the tree as its been replaced by a newer version or is no longer required
+42 silly removeObsoleteDep removing discord-api-types@0.37.61 from the tree as its been replaced by a newer version or is no longer required
+43 silly removeObsoleteDep removing ts-mixer@6.0.3 from the tree as its been replaced by a newer version or is no longer required
+44 silly removeObsoleteDep removing @discordjs/formatters@0.3.3 from the tree as its been replaced by a newer version or is no longer required
+45 silly removeObsoleteDep removing discord-api-types@0.37.61 from the tree as its been replaced by a newer version or is no longer required
+46 silly removeObsoleteDep removing @discordjs/rest@2.2.0 from the tree as its been replaced by a newer version or is no longer required
+47 silly removeObsoleteDep removing @sapphire/snowflake@3.5.1 from the tree as its been replaced by a newer version or is no longer required
+48 silly removeObsoleteDep removing discord-api-types@0.37.61 from the tree as its been replaced by a newer version or is no longer required
+49 silly removeObsoleteDep removing undici@5.27.2 from the tree as its been replaced by a newer version or is no longer required
+50 silly removeObsoleteDep removing @discordjs/collection@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+51 silly removeObsoleteDep removing @discordjs/ws@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+52 silly removeObsoleteDep removing @sapphire/async-queue@1.5.1 from the tree as its been replaced by a newer version or is no longer required
+53 silly removeObsoleteDep removing @types/ws@8.5.9 from the tree as its been replaced by a newer version or is no longer required
+54 silly removeObsoleteDep removing @types/node@20.10.4 from the tree as its been replaced by a newer version or is no longer required
+55 silly removeObsoleteDep removing undici-types@5.26.5 from the tree as its been replaced by a newer version or is no longer required
+56 silly removeObsoleteDep removing @vladfrangu/async_event_emitter@2.2.4 from the tree as its been replaced by a newer version or is no longer required
+57 silly removeObsoleteDep removing discord-api-types@0.37.61 from the tree as its been replaced by a newer version or is no longer required
+58 silly removeObsoleteDep removing tslib@2.6.2 from the tree as its been replaced by a newer version or is no longer required
+59 silly removeObsoleteDep removing ws@8.14.2 from the tree as its been replaced by a newer version or is no longer required
+60 silly removeObsoleteDep removing @discordjs/collection@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+61 silly removeObsoleteDep removing @discordjs/rest@2.2.0 from the tree as its been replaced by a newer version or is no longer required
+62 silly removeObsoleteDep removing @sapphire/snowflake@3.5.2 from the tree as its been replaced by a newer version or is no longer required
+63 silly removeObsoleteDep removing magic-bytes.js@1.7.0 from the tree as its been replaced by a newer version or is no longer required
+64 silly removeObsoleteDep removing undici@5.27.2 from the tree as its been replaced by a newer version or is no longer required
+65 silly removeObsoleteDep removing @fastify/busboy@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+66 silly removeObsoleteDep removing @discordjs/util@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+67 silly removeObsoleteDep removing express@4.18.1 from the tree as its been replaced by a newer version or is no longer required
+68 silly removeObsoleteDep removing accepts@1.3.8 from the tree as its been replaced by a newer version or is no longer required
+69 silly removeObsoleteDep removing negotiator@0.6.3 from the tree as its been replaced by a newer version or is no longer required
+70 silly removeObsoleteDep removing array-flatten@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+71 silly removeObsoleteDep removing content-disposition@0.5.4 from the tree as its been replaced by a newer version or is no longer required
+72 silly removeObsoleteDep removing content-type@1.0.5 from the tree as its been replaced by a newer version or is no longer required
+73 silly removeObsoleteDep removing cookie@0.5.0 from the tree as its been replaced by a newer version or is no longer required
+74 silly removeObsoleteDep removing cookie-signature@1.0.6 from the tree as its been replaced by a newer version or is no longer required
+75 silly removeObsoleteDep removing finalhandler@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+76 silly removeObsoleteDep removing unpipe@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+77 silly removeObsoleteDep removing merge-descriptors@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+78 silly removeObsoleteDep removing methods@1.1.2 from the tree as its been replaced by a newer version or is no longer required
+79 silly removeObsoleteDep removing path-to-regexp@0.1.7 from the tree as its been replaced by a newer version or is no longer required
+80 silly removeObsoleteDep removing proxy-addr@2.0.7 from the tree as its been replaced by a newer version or is no longer required
+81 silly removeObsoleteDep removing forwarded@0.2.0 from the tree as its been replaced by a newer version or is no longer required
+82 silly removeObsoleteDep removing ipaddr.js@1.9.1 from the tree as its been replaced by a newer version or is no longer required
+83 silly removeObsoleteDep removing qs@6.10.3 from the tree as its been replaced by a newer version or is no longer required
+84 silly removeObsoleteDep removing side-channel@1.0.4 from the tree as its been replaced by a newer version or is no longer required
+85 silly removeObsoleteDep removing call-bind@1.0.5 from the tree as its been replaced by a newer version or is no longer required
+86 silly removeObsoleteDep removing function-bind@1.1.2 from the tree as its been replaced by a newer version or is no longer required
+87 silly removeObsoleteDep removing get-intrinsic@1.2.2 from the tree as its been replaced by a newer version or is no longer required
+88 silly removeObsoleteDep removing has-proto@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+89 silly removeObsoleteDep removing has-symbols@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+90 silly removeObsoleteDep removing hasown@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+91 silly removeObsoleteDep removing set-function-length@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+92 silly removeObsoleteDep removing define-data-property@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+93 silly removeObsoleteDep removing gopd@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+94 silly removeObsoleteDep removing has-property-descriptors@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+95 silly removeObsoleteDep removing object-inspect@1.13.1 from the tree as its been replaced by a newer version or is no longer required
+96 silly removeObsoleteDep removing safe-buffer@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+97 silly removeObsoleteDep removing serve-static@1.15.0 from the tree as its been replaced by a newer version or is no longer required
+98 silly removeObsoleteDep removing encodeurl@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+99 silly removeObsoleteDep removing escape-html@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+100 silly removeObsoleteDep removing parseurl@1.3.3 from the tree as its been replaced by a newer version or is no longer required
+101 silly removeObsoleteDep removing send@0.18.0 from the tree as its been replaced by a newer version or is no longer required
+102 silly removeObsoleteDep removing debug@2.6.9 from the tree as its been replaced by a newer version or is no longer required
+103 silly removeObsoleteDep removing ms@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+104 silly removeObsoleteDep removing depd@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+105 silly removeObsoleteDep removing destroy@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+106 silly removeObsoleteDep removing etag@1.8.1 from the tree as its been replaced by a newer version or is no longer required
+107 silly removeObsoleteDep removing fresh@0.5.2 from the tree as its been replaced by a newer version or is no longer required
+108 silly removeObsoleteDep removing http-errors@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+109 silly removeObsoleteDep removing toidentifier@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+110 silly removeObsoleteDep removing mime@1.6.0 from the tree as its been replaced by a newer version or is no longer required
+111 silly removeObsoleteDep removing ms@2.1.3 from the tree as its been replaced by a newer version or is no longer required
+112 silly removeObsoleteDep removing on-finished@2.4.1 from the tree as its been replaced by a newer version or is no longer required
+113 silly removeObsoleteDep removing ee-first@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+114 silly removeObsoleteDep removing range-parser@1.2.1 from the tree as its been replaced by a newer version or is no longer required
+115 silly removeObsoleteDep removing setprototypeof@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+116 silly removeObsoleteDep removing statuses@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+117 silly removeObsoleteDep removing type-is@1.6.18 from the tree as its been replaced by a newer version or is no longer required
+118 silly removeObsoleteDep removing media-typer@0.3.0 from the tree as its been replaced by a newer version or is no longer required
+119 silly removeObsoleteDep removing utils-merge@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+120 silly removeObsoleteDep removing vary@1.1.2 from the tree as its been replaced by a newer version or is no longer required
+121 silly removeObsoleteDep removing google-spreadsheet@4.1.1 from the tree as its been replaced by a newer version or is no longer required
+122 silly removeObsoleteDep removing axios@1.6.2 from the tree as its been replaced by a newer version or is no longer required
+123 silly removeObsoleteDep removing follow-redirects@1.15.3 from the tree as its been replaced by a newer version or is no longer required
+124 silly removeObsoleteDep removing form-data@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+125 silly removeObsoleteDep removing asynckit@0.4.0 from the tree as its been replaced by a newer version or is no longer required
+126 silly removeObsoleteDep removing combined-stream@1.0.8 from the tree as its been replaced by a newer version or is no longer required
+127 silly removeObsoleteDep removing delayed-stream@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+128 silly removeObsoleteDep removing mime-types@2.1.35 from the tree as its been replaced by a newer version or is no longer required
+129 silly removeObsoleteDep removing mime-db@1.52.0 from the tree as its been replaced by a newer version or is no longer required
+130 silly removeObsoleteDep removing proxy-from-env@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+131 silly removeObsoleteDep removing lodash@4.17.21 from the tree as its been replaced by a newer version or is no longer required
+132 silly removeObsoleteDep removing mysql@2.18.1 from the tree as its been replaced by a newer version or is no longer required
+133 silly removeObsoleteDep removing bignumber.js@9.0.0 from the tree as its been replaced by a newer version or is no longer required
+134 silly removeObsoleteDep removing readable-stream@2.3.7 from the tree as its been replaced by a newer version or is no longer required
+135 silly removeObsoleteDep removing core-util-is@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+136 silly removeObsoleteDep removing inherits@2.0.4 from the tree as its been replaced by a newer version or is no longer required
+137 silly removeObsoleteDep removing isarray@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+138 silly removeObsoleteDep removing process-nextick-args@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+139 silly removeObsoleteDep removing safe-buffer@5.1.2 from the tree as its been replaced by a newer version or is no longer required
+140 silly removeObsoleteDep removing string_decoder@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+141 silly removeObsoleteDep removing safe-buffer@5.1.2 from the tree as its been replaced by a newer version or is no longer required
+142 silly removeObsoleteDep removing util-deprecate@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+143 silly removeObsoleteDep removing safe-buffer@5.1.2 from the tree as its been replaced by a newer version or is no longer required
+144 silly removeObsoleteDep removing sqlstring@2.3.1 from the tree as its been replaced by a newer version or is no longer required
+145 http fetch GET 200 https://registry.npmjs.org/body-parser 194ms
+146 http fetch GET 200 https://registry.npmjs.org/mysql 201ms
+147 http fetch GET 200 https://registry.npmjs.org/axios 213ms
+148 http fetch GET 200 https://registry.npmjs.org/express 222ms
+149 http fetch GET 200 https://registry.npmjs.org/body-parser/-/body-parser-1.20.0.tgz 94ms
+150 http fetch GET 200 https://registry.npmjs.org/mysql/-/mysql-2.18.1.tgz 88ms
+151 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-0.27.2.tgz 80ms
+152 http fetch GET 200 https://registry.npmjs.org/express/-/express-4.18.1.tgz 70ms
+153 silly pacote version manifest for body-parser@1.20.0 fetched in 303ms
+154 silly resolveWithNewModule body-parser@1.20.0 checking installable status
+155 silly pacote version manifest for mysql@2.18.1 fetched in 299ms
+156 silly resolveWithNewModule mysql@2.18.1 checking installable status
+157 silly pacote version manifest for axios@0.27.2 fetched in 305ms
+158 silly resolveWithNewModule axios@0.27.2 checking installable status
+159 silly pacote version manifest for express@4.18.1 fetched in 304ms
+160 silly resolveWithNewModule express@4.18.1 checking installable status
+161 http fetch GET 200 https://registry.npmjs.org/google-spreadsheet 355ms
+162 http fetch GET 200 https://registry.npmjs.org/google-spreadsheet/-/google-spreadsheet-4.1.1.tgz 45ms
+163 silly pacote version manifest for google-spreadsheet@4.1.1 fetched in 406ms
+164 silly resolveWithNewModule google-spreadsheet@4.1.1 checking installable status
+165 http fetch GET 200 https://registry.npmjs.org/discord.js 948ms
+166 http fetch GET 200 https://registry.npmjs.org/discord.js/-/discord.js-14.14.1.tgz 71ms
+167 silly pacote version manifest for discord.js@14.14.1 fetched in 1064ms
+168 silly resolveWithNewModule discord.js@14.14.1 checking installable status
+169 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 1768ms
+170 http fetch GET 200 https://registry.npmjs.org/@discordjs/rest/-/rest-1.1.0.tgz 1824ms
+171 silly pacote version manifest for @discordjs/rest@1.1.0 fetched in 3633ms
+172 silly resolveWithNewModule @discordjs/rest@1.1.0 checking installable status
+173 http fetch GET 200 https://registry.npmjs.org/tslib 54ms
+174 http fetch GET 200 https://registry.npmjs.org/undici 65ms
+175 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz 86ms
+176 http fetch GET 200 https://registry.npmjs.org/undici/-/undici-5.28.2.tgz 72ms
+177 silly pacote range manifest for tslib@^2.4.0 fetched in 150ms
+178 silly resolveWithNewModule tslib@2.6.2 checking installable status
+179 silly pacote range manifest for undici@^5.9.1 fetched in 152ms
+180 silly resolveWithNewModule undici@5.28.2 checking installable status
+181 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fasync-queue 171ms
+182 http fetch GET 200 https://registry.npmjs.org/@sapphire/async-queue/-/async-queue-1.5.1.tgz 58ms
+183 silly pacote range manifest for @sapphire/async-queue@^1.5.0 fetched in 246ms
+184 silly resolveWithNewModule @sapphire/async-queue@1.5.1 checking installable status
+185 http fetch GET 200 https://registry.npmjs.org/file-type 717ms
+186 http fetch GET 200 https://registry.npmjs.org/file-type/-/file-type-17.1.6.tgz 58ms
+187 silly pacote range manifest for file-type@^17.1.6 fetched in 787ms
+188 silly resolveWithNewModule file-type@17.1.6 checking installable status
+189 http fetch GET 200 https://registry.npmjs.org/discord-api-types 821ms
+190 http fetch GET 200 https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.37.66.tgz 132ms
+191 silly pacote range manifest for discord-api-types@^0.37.3 fetched in 982ms
+192 silly resolveWithNewModule discord-api-types@0.37.66 checking installable status
+193 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fsnowflake 1545ms
+194 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fcollection 1601ms
+195 http fetch GET 200 https://registry.npmjs.org/@sapphire/snowflake/-/snowflake-3.5.2.tgz 253ms
+196 silly pacote range manifest for @sapphire/snowflake@^3.2.2 fetched in 1818ms
+197 silly resolveWithNewModule @sapphire/snowflake@3.5.2 checking installable status
+198 http fetch GET 200 https://registry.npmjs.org/@discordjs/collection/-/collection-1.5.3.tgz 274ms
+199 silly pacote range manifest for @discordjs/collection@^1.0.1 fetched in 1904ms
+200 silly resolveWithNewModule @discordjs/collection@1.5.3 checking installable status
+201 http fetch GET 200 https://registry.npmjs.org/strtok3 727ms
+202 http fetch GET 200 https://registry.npmjs.org/token-types 739ms
+203 http fetch GET 200 https://registry.npmjs.org/readable-web-to-node-stream 749ms
+204 http fetch GET 200 https://registry.npmjs.org/strtok3/-/strtok3-7.0.0.tgz 60ms
+205 http fetch GET 200 https://registry.npmjs.org/token-types/-/token-types-5.0.1.tgz 53ms
+206 http fetch GET 200 https://registry.npmjs.org/readable-web-to-node-stream/-/readable-web-to-node-stream-3.0.2.tgz 47ms
+207 silly pacote range manifest for strtok3@^7.0.0-alpha.9 fetched in 803ms
+208 silly resolveWithNewModule strtok3@7.0.0 checking installable status
+209 silly pacote range manifest for readable-web-to-node-stream@^3.0.2 fetched in 805ms
+210 silly resolveWithNewModule readable-web-to-node-stream@3.0.2 checking installable status
+211 silly pacote range manifest for token-types@^5.0.0-alpha.2 fetched in 804ms
+212 silly resolveWithNewModule token-types@5.0.1 checking installable status
+213 http fetch GET 200 https://registry.npmjs.org/readable-stream 39ms
+214 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 45ms
+215 silly pacote range manifest for readable-stream@^3.6.0 fetched in 94ms
+216 silly resolveWithNewModule readable-stream@3.6.2 checking installable status
+217 http fetch GET 200 https://registry.npmjs.org/inherits 40ms
+218 http fetch GET 200 https://registry.npmjs.org/util-deprecate 43ms
+219 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 44ms
+220 silly pacote range manifest for inherits@^2.0.3 fetched in 89ms
+221 silly resolveWithNewModule inherits@2.0.4 checking installable status
+222 http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 71ms
+223 silly pacote range manifest for util-deprecate@^1.0.1 fetched in 122ms
+224 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+225 http fetch GET 200 https://registry.npmjs.org/string_decoder 228ms
+226 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 45ms
+227 silly pacote range manifest for string_decoder@^1.1.1 fetched in 281ms
+228 silly resolveWithNewModule string_decoder@1.3.0 checking installable status
+229 http fetch GET 200 https://registry.npmjs.org/safe-buffer 49ms
+230 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 48ms
+231 silly pacote range manifest for safe-buffer@~5.2.0 fetched in 102ms
+232 silly resolveWithNewModule safe-buffer@5.2.1 checking installable status
+233 http fetch GET 200 https://registry.npmjs.org/peek-readable 39ms
+234 http fetch GET 200 https://registry.npmjs.org/peek-readable/-/peek-readable-5.0.0.tgz 54ms
+235 silly pacote range manifest for peek-readable@^5.0.0 fetched in 99ms
+236 silly resolveWithNewModule peek-readable@5.0.0 checking installable status
+237 http fetch GET 200 https://registry.npmjs.org/@tokenizer%2ftoken 441ms
+238 http fetch GET 200 https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz 55ms
+239 silly pacote range manifest for @tokenizer/token@^0.3.0 fetched in 503ms
+240 silly resolveWithNewModule @tokenizer/token@0.3.0 checking installable status
+241 http fetch GET 200 https://registry.npmjs.org/ieee754 40ms
+242 http fetch GET 200 https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 37ms
+243 silly pacote range manifest for ieee754@^1.2.1 fetched in 83ms
+244 silly resolveWithNewModule ieee754@1.2.1 checking installable status
+245 http fetch GET 200 https://registry.npmjs.org/@fastify%2fbusboy 68ms
+246 http fetch GET 200 https://registry.npmjs.org/@fastify/busboy/-/busboy-2.1.0.tgz 92ms
+247 silly pacote range manifest for @fastify/busboy@^2.0.0 fetched in 165ms
+248 silly resolveWithNewModule @fastify/busboy@2.1.0 checking installable status
+249 http fetch GET 200 https://registry.npmjs.org/follow-redirects 42ms
+250 http fetch GET 200 https://registry.npmjs.org/form-data 45ms
+251 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.3.tgz 45ms
+252 silly pacote range manifest for follow-redirects@^1.14.9 fetched in 101ms
+253 silly resolveWithNewModule follow-redirects@1.15.3 checking installable status
+254 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz 53ms
+255 silly pacote range manifest for form-data@^4.0.0 fetched in 104ms
+256 silly resolveWithNewModule form-data@4.0.0 checking installable status
+257 http fetch GET 200 https://registry.npmjs.org/asynckit 44ms
+258 http fetch GET 200 https://registry.npmjs.org/combined-stream 47ms
+259 http fetch GET 200 https://registry.npmjs.org/mime-types 52ms
+260 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 41ms
+261 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 47ms
+262 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 38ms
+263 silly pacote range manifest for combined-stream@^1.0.8 fetched in 99ms
+264 silly resolveWithNewModule combined-stream@1.0.8 checking installable status
+265 silly pacote range manifest for asynckit@^0.4.0 fetched in 100ms
+266 silly resolveWithNewModule asynckit@0.4.0 checking installable status
+267 silly pacote range manifest for mime-types@^2.1.12 fetched in 100ms
+268 silly resolveWithNewModule mime-types@2.1.35 checking installable status
+269 http fetch GET 200 https://registry.npmjs.org/delayed-stream 48ms
+270 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 43ms
+271 silly pacote range manifest for delayed-stream@~1.0.0 fetched in 96ms
+272 silly resolveWithNewModule delayed-stream@1.0.0 checking installable status
+273 http fetch GET 200 https://registry.npmjs.org/mime-db 39ms
+274 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 42ms
+275 silly pacote version manifest for mime-db@1.52.0 fetched in 88ms
+276 silly resolveWithNewModule mime-db@1.52.0 checking installable status
+277 http fetch GET 200 https://registry.npmjs.org/destroy 75ms
+278 http fetch GET 200 https://registry.npmjs.org/http-errors 75ms
+279 http fetch GET 200 https://registry.npmjs.org/iconv-lite 76ms
+280 http fetch GET 200 https://registry.npmjs.org/bytes 81ms
+281 http fetch GET 200 https://registry.npmjs.org/depd 79ms
+282 http fetch GET 200 https://registry.npmjs.org/content-type 99ms
+283 http fetch GET 200 https://registry.npmjs.org/debug 106ms
+284 http fetch GET 200 https://registry.npmjs.org/on-finished 114ms
+285 http fetch GET 200 https://registry.npmjs.org/raw-body 135ms
+286 http fetch GET 200 https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz 67ms
+287 http fetch GET 200 https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz 64ms
+288 http fetch GET 200 https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz 71ms
+289 http fetch GET 200 https://registry.npmjs.org/depd/-/depd-2.0.0.tgz 65ms
+290 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz 69ms
+291 http fetch GET 200 https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz 58ms
+292 http fetch GET 200 https://registry.npmjs.org/qs 162ms
+293 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 62ms
+294 silly pacote version manifest for http-errors@2.0.0 fetched in 171ms
+295 silly resolveWithNewModule http-errors@2.0.0 checking installable status
+296 silly pacote version manifest for bytes@3.1.2 fetched in 175ms
+297 silly resolveWithNewModule bytes@3.1.2 checking installable status
+298 silly pacote version manifest for depd@2.0.0 fetched in 175ms
+299 silly resolveWithNewModule depd@2.0.0 checking installable status
+300 silly pacote version manifest for destroy@1.2.0 fetched in 175ms
+301 silly resolveWithNewModule destroy@1.2.0 checking installable status
+302 silly pacote version manifest for iconv-lite@0.4.24 fetched in 175ms
+303 silly resolveWithNewModule iconv-lite@0.4.24 checking installable status
+304 silly pacote range manifest for content-type@~1.0.4 fetched in 179ms
+305 silly resolveWithNewModule content-type@1.0.5 checking installable status
+306 http fetch GET 200 https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz 60ms
+307 silly pacote version manifest for debug@2.6.9 fetched in 179ms
+308 silly resolveWithNewModule debug@2.6.9 checking installable status
+309 silly pacote version manifest for on-finished@2.4.1 fetched in 177ms
+310 silly resolveWithNewModule on-finished@2.4.1 checking installable status
+311 http fetch GET 200 https://registry.npmjs.org/raw-body/-/raw-body-2.5.1.tgz 50ms
+312 silly pacote version manifest for raw-body@2.5.1 fetched in 193ms
+313 silly resolveWithNewModule raw-body@2.5.1 checking installable status
+314 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.10.3.tgz 36ms
+315 http fetch GET 200 https://registry.npmjs.org/type-is 34ms
+316 silly pacote version manifest for qs@6.10.3 fetched in 205ms
+317 silly resolveWithNewModule qs@6.10.3 checking installable status
+318 http fetch GET 200 https://registry.npmjs.org/unpipe 44ms
+319 http fetch GET 200 https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz 39ms
+320 silly pacote range manifest for type-is@~1.6.18 fetched in 77ms
+321 silly resolveWithNewModule type-is@1.6.18 checking installable status
+322 http fetch GET 200 https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz 33ms
+323 silly pacote version manifest for unpipe@1.0.0 fetched in 80ms
+324 silly resolveWithNewModule unpipe@1.0.0 checking installable status
+325 http fetch GET 200 https://registry.npmjs.org/ms 50ms
+326 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 36ms
+327 silly pacote version manifest for ms@2.0.0 fetched in 91ms
+328 silly resolveWithNewModule ms@2.0.0 checking installable status
+329 http fetch GET 200 https://registry.npmjs.org/toidentifier 42ms
+330 http fetch GET 200 https://registry.npmjs.org/setprototypeof 45ms
+331 http fetch GET 200 https://registry.npmjs.org/statuses 44ms
+332 http fetch GET 200 https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz 43ms
+333 http fetch GET 200 https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz 43ms
+334 http fetch GET 200 https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz 43ms
+335 silly pacote version manifest for toidentifier@1.0.1 fetched in 93ms
+336 silly resolveWithNewModule toidentifier@1.0.1 checking installable status
+337 silly pacote version manifest for setprototypeof@1.2.0 fetched in 97ms
+338 silly resolveWithNewModule setprototypeof@1.2.0 checking installable status
+339 silly pacote version manifest for statuses@2.0.1 fetched in 97ms
+340 silly resolveWithNewModule statuses@2.0.1 checking installable status
+341 http fetch GET 200 https://registry.npmjs.org/safer-buffer 40ms
+342 http fetch GET 200 https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 36ms
+343 silly pacote range manifest for safer-buffer@>= 2.1.2 < 3 fetched in 81ms
+344 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+345 http fetch GET 200 https://registry.npmjs.org/ee-first 34ms
+346 http fetch GET 200 https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz 36ms
+347 silly pacote version manifest for ee-first@1.1.1 fetched in 77ms
+348 silly resolveWithNewModule ee-first@1.1.1 checking installable status
+349 http fetch GET 200 https://registry.npmjs.org/side-channel 35ms
+350 http fetch GET 200 https://registry.npmjs.org/side-channel/-/side-channel-1.0.4.tgz 37ms
+351 silly pacote range manifest for side-channel@^1.0.4 fetched in 78ms
+352 silly resolveWithNewModule side-channel@1.0.4 checking installable status
+353 http fetch GET 200 https://registry.npmjs.org/call-bind 44ms
+354 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 47ms
+355 http fetch GET 200 https://registry.npmjs.org/object-inspect 47ms
+356 http fetch GET 200 https://registry.npmjs.org/call-bind/-/call-bind-1.0.5.tgz 45ms
+357 http fetch GET 200 https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.2.tgz 42ms
+358 http fetch GET 200 https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.1.tgz 43ms
+359 silly pacote range manifest for call-bind@^1.0.0 fetched in 97ms
+360 silly resolveWithNewModule call-bind@1.0.5 checking installable status
+361 silly pacote range manifest for get-intrinsic@^1.0.2 fetched in 98ms
+362 silly resolveWithNewModule get-intrinsic@1.2.2 checking installable status
+363 silly pacote range manifest for object-inspect@^1.9.0 fetched in 102ms
+364 silly resolveWithNewModule object-inspect@1.13.1 checking installable status
+365 http fetch GET 200 https://registry.npmjs.org/function-bind 39ms
+366 http fetch GET 200 https://registry.npmjs.org/set-function-length 39ms
+367 http fetch GET 200 https://registry.npmjs.org/set-function-length/-/set-function-length-1.1.1.tgz 40ms
+368 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 42ms
+369 silly pacote range manifest for set-function-length@^1.1.1 fetched in 86ms
+370 silly resolveWithNewModule set-function-length@1.1.1 checking installable status
+371 silly pacote range manifest for function-bind@^1.1.2 fetched in 89ms
+372 silly resolveWithNewModule function-bind@1.1.2 checking installable status
+373 http fetch GET 200 https://registry.npmjs.org/has-symbols 39ms
+374 http fetch GET 200 https://registry.npmjs.org/has-proto 43ms
+375 http fetch GET 200 https://registry.npmjs.org/hasown 44ms
+376 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.3.tgz 41ms
+377 http fetch GET 200 https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz 38ms
+378 silly pacote range manifest for has-symbols@^1.0.3 fetched in 87ms
+379 silly resolveWithNewModule has-symbols@1.0.3 checking installable status
+380 silly pacote range manifest for has-proto@^1.0.1 fetched in 88ms
+381 silly resolveWithNewModule has-proto@1.0.1 checking installable status
+382 http fetch GET 200 https://registry.npmjs.org/hasown/-/hasown-2.0.0.tgz 49ms
+383 silly pacote range manifest for hasown@^2.0.0 fetched in 98ms
+384 silly resolveWithNewModule hasown@2.0.0 checking installable status
+385 http fetch GET 200 https://registry.npmjs.org/has-property-descriptors 39ms
+386 http fetch GET 200 https://registry.npmjs.org/gopd 42ms
+387 http fetch GET 200 https://registry.npmjs.org/define-data-property 53ms
+388 http fetch GET 200 https://registry.npmjs.org/gopd/-/gopd-1.0.1.tgz 42ms
+389 http fetch GET 200 https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.1.tgz 46ms
+390 http fetch GET 200 https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.1.tgz 38ms
+391 silly pacote range manifest for gopd@^1.0.1 fetched in 94ms
+392 silly resolveWithNewModule gopd@1.0.1 checking installable status
+393 silly pacote range manifest for has-property-descriptors@^1.0.0 fetched in 94ms
+394 silly resolveWithNewModule has-property-descriptors@1.0.1 checking installable status
+395 silly pacote range manifest for define-data-property@^1.1.1 fetched in 98ms
+396 silly resolveWithNewModule define-data-property@1.1.1 checking installable status
+397 http fetch GET 200 https://registry.npmjs.org/media-typer 45ms
+398 http fetch GET 200 https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz 35ms
+399 silly pacote version manifest for media-typer@0.3.0 fetched in 86ms
+400 silly resolveWithNewModule media-typer@0.3.0 checking installable status
+401 http fetch GET 200 https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.37.61.tgz 130ms
+402 http fetch GET 200 https://registry.npmjs.org/ws 147ms
+403 http fetch GET 200 https://registry.npmjs.org/lodash.snakecase 151ms
+404 http fetch GET 200 https://registry.npmjs.org/undici/-/undici-5.27.2.tgz 134ms
+405 http fetch GET 200 https://registry.npmjs.org/@types%2fws 158ms
+406 silly pacote version manifest for discord-api-types@0.37.61 fetched in 160ms
+407 silly resolveWithNewModule discord-api-types@0.37.61 checking installable status
+408 silly pacote version manifest for undici@5.27.2 fetched in 165ms
+409 silly resolveWithNewModule undici@5.27.2 checking installable status
+410 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.14.2.tgz 33ms
+411 http fetch GET 200 https://registry.npmjs.org/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz 34ms
+412 silly pacote version manifest for ws@8.14.2 fetched in 188ms
+413 silly resolveWithNewModule ws@8.14.2 checking installable status
+414 silly pacote version manifest for lodash.snakecase@4.1.1 fetched in 191ms
+415 silly resolveWithNewModule lodash.snakecase@4.1.1 checking installable status
+416 http fetch GET 200 https://registry.npmjs.org/@sapphire/snowflake/-/snowflake-3.5.1.tgz 275ms
+417 silly pacote version manifest for @sapphire/snowflake@3.5.1 fetched in 296ms
+418 silly resolveWithNewModule @sapphire/snowflake@3.5.1 checking installable status
+419 http fetch GET 200 https://registry.npmjs.org/@types/ws/-/ws-8.5.9.tgz 230ms
+420 silly pacote version manifest for @types/ws@8.5.9 fetched in 393ms
+421 silly resolveWithNewModule @types/ws@8.5.9 checking installable status
+422 http fetch GET 200 https://registry.npmjs.org/@discordjs/rest/-/rest-2.2.0.tgz 269ms
+423 silly pacote range manifest for @discordjs/rest@^2.1.0 fetched in 275ms
+424 silly resolveWithNewModule @discordjs/rest@2.2.0 checking installable status
+425 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 730ms
+426 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 39ms
+427 silly pacote version manifest for fast-deep-equal@3.1.3 fetched in 775ms
+428 silly resolveWithNewModule fast-deep-equal@3.1.3 checking installable status
+429 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fws 1104ms
+430 http fetch GET 200 https://registry.npmjs.org/@discordjs%2futil 1449ms
+431 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fformatters 1535ms
+432 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fbuilders 1555ms
+433 http fetch GET 200 https://registry.npmjs.org/@discordjs/formatters/-/formatters-0.3.3.tgz 248ms
+434 silly pacote range manifest for @discordjs/formatters@^0.3.3 fetched in 1801ms
+435 silly resolveWithNewModule @discordjs/formatters@0.3.3 checking installable status
+436 http fetch GET 200 https://registry.npmjs.org/@discordjs/builders/-/builders-1.7.0.tgz 254ms
+437 silly pacote range manifest for @discordjs/builders@^1.7.0 fetched in 1830ms
+438 silly resolveWithNewModule @discordjs/builders@1.7.0 checking installable status
+439 http fetch GET 200 https://registry.npmjs.org/@discordjs/ws/-/ws-1.0.2.tgz 809ms
+440 silly pacote range manifest for @discordjs/ws@^1.0.2 fetched in 1945ms
+441 silly resolveWithNewModule @discordjs/ws@1.0.2 checking installable status
+442 http fetch GET 200 https://registry.npmjs.org/@discordjs/util/-/util-1.0.2.tgz 755ms
+443 silly pacote range manifest for @discordjs/util@^1.0.2 fetched in 2238ms
+444 silly resolveWithNewModule @discordjs/util@1.0.2 checking installable status
+445 silly pacote version manifest for discord-api-types@0.37.61 fetched in 11ms
+446 silly resolveWithNewModule discord-api-types@0.37.61 checking installable status
+447 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fshapeshift 120ms
+448 http fetch GET 200 https://registry.npmjs.org/ts-mixer 738ms
+449 http fetch GET 200 https://registry.npmjs.org/ts-mixer/-/ts-mixer-6.0.3.tgz 41ms
+450 silly pacote range manifest for ts-mixer@^6.0.3 fetched in 786ms
+451 silly resolveWithNewModule ts-mixer@6.0.3 checking installable status
+452 http fetch GET 200 https://registry.npmjs.org/@sapphire/shapeshift/-/shapeshift-3.9.5.tgz 919ms
+453 silly pacote range manifest for @sapphire/shapeshift@^3.9.3 fetched in 1055ms
+454 silly resolveWithNewModule @sapphire/shapeshift@3.9.5 checking installable status
+455 silly pacote version manifest for discord-api-types@0.37.61 fetched in 6ms
+456 silly resolveWithNewModule discord-api-types@0.37.61 checking installable status
+457 http fetch GET 200 https://registry.npmjs.org/lodash 40ms
+458 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 119ms
+459 silly pacote range manifest for lodash@^4.17.21 fetched in 163ms
+460 silly resolveWithNewModule lodash@4.17.21 checking installable status
+461 http fetch GET 200 https://registry.npmjs.org/magic-bytes.js 738ms
+462 http fetch GET 200 https://registry.npmjs.org/@discordjs/collection/-/collection-2.0.0.tgz 764ms
+463 silly pacote range manifest for @discordjs/collection@^2.0.0 fetched in 781ms
+464 silly resolveWithNewModule @discordjs/collection@2.0.0 checking installable status
+465 http fetch GET 200 https://registry.npmjs.org/magic-bytes.js/-/magic-bytes.js-1.7.0.tgz 45ms
+466 silly pacote range manifest for magic-bytes.js@^1.5.0 fetched in 788ms
+467 silly resolveWithNewModule magic-bytes.js@1.7.0 checking installable status
+468 http fetch GET 200 https://registry.npmjs.org/@vladfrangu%2fasync_event_emitter 1484ms
+469 http fetch GET 200 https://registry.npmjs.org/@vladfrangu/async_event_emitter/-/async_event_emitter-2.2.4.tgz 790ms
+470 silly pacote range manifest for @vladfrangu/async_event_emitter@^2.2.2 fetched in 2279ms
+471 silly resolveWithNewModule @vladfrangu/async_event_emitter@2.2.4 checking installable status
+472 silly pacote version manifest for discord-api-types@0.37.61 fetched in 20ms
+473 silly resolveWithNewModule discord-api-types@0.37.61 checking installable status
+474 silly pacote range manifest for @discordjs/collection@^2.0.0 fetched in 22ms
+475 silly resolveWithNewModule @discordjs/collection@2.0.0 checking installable status
+476 silly pacote range manifest for @discordjs/rest@^2.1.0 fetched in 23ms
+477 silly resolveWithNewModule @discordjs/rest@2.2.0 checking installable status
+478 silly pacote version manifest for undici@5.27.2 fetched in 2ms
+479 silly resolveWithNewModule undici@5.27.2 checking installable status
+480 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 101ms
+481 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.10.5.tgz 104ms
+482 silly pacote range manifest for @types/node@* fetched in 231ms
+483 silly resolveWithNewModule @types/node@20.10.5 checking installable status
+484 http fetch GET 200 https://registry.npmjs.org/undici-types 34ms
+485 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 44ms
+486 silly pacote range manifest for undici-types@~5.26.4 fetched in 87ms
+487 silly resolveWithNewModule undici-types@5.26.5 checking installable status
+488 http fetch GET 200 https://registry.npmjs.org/finalhandler 89ms
+489 http fetch GET 200 https://registry.npmjs.org/accepts 100ms
+490 http fetch GET 200 https://registry.npmjs.org/content-disposition 100ms
+491 http fetch GET 200 https://registry.npmjs.org/cookie-signature 101ms
+492 http fetch GET 200 https://registry.npmjs.org/escape-html 101ms
+493 http fetch GET 200 https://registry.npmjs.org/encodeurl 102ms
+494 http fetch GET 200 https://registry.npmjs.org/etag 101ms
+495 http fetch GET 200 https://registry.npmjs.org/array-flatten 104ms
+496 http fetch GET 200 https://registry.npmjs.org/fresh 101ms
+497 http fetch GET 200 https://registry.npmjs.org/cookie 113ms
+498 http fetch GET 200 https://registry.npmjs.org/finalhandler/-/finalhandler-1.2.0.tgz 32ms
+499 silly pacote version manifest for finalhandler@1.2.0 fetched in 128ms
+500 silly resolveWithNewModule finalhandler@1.2.0 checking installable status
+501 http fetch GET 200 https://registry.npmjs.org/etag/-/etag-1.8.1.tgz 36ms
+502 http fetch GET 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz 39ms
+503 http fetch GET 200 https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 52ms
+504 silly pacote range manifest for etag@~1.8.1 fetched in 158ms
+505 silly resolveWithNewModule etag@1.8.1 checking installable status
+506 silly pacote version manifest for cookie-signature@1.0.6 fetched in 162ms
+507 silly resolveWithNewModule cookie-signature@1.0.6 checking installable status
+508 http fetch GET 200 https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz 63ms
+509 http fetch GET 200 https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz 57ms
+510 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.5.0.tgz 53ms
+511 http fetch GET 200 https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz 61ms
+512 http fetch GET 200 https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz 69ms
+513 silly pacote range manifest for escape-html@~1.0.3 fetched in 173ms
+514 silly resolveWithNewModule escape-html@1.0.3 checking installable status
+515 silly pacote version manifest for content-disposition@0.5.4 fetched in 178ms
+516 silly resolveWithNewModule content-disposition@0.5.4 checking installable status
+517 silly pacote version manifest for fresh@0.5.2 fetched in 175ms
+518 silly resolveWithNewModule fresh@0.5.2 checking installable status
+519 http fetch GET 200 https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz 70ms
+520 silly pacote version manifest for cookie@0.5.0 fetched in 181ms
+521 silly resolveWithNewModule cookie@0.5.0 checking installable status
+522 silly pacote range manifest for accepts@~1.3.8 fetched in 185ms
+523 silly resolveWithNewModule accepts@1.3.8 checking installable status
+524 silly pacote range manifest for encodeurl@~1.0.2 fetched in 183ms
+525 silly resolveWithNewModule encodeurl@1.0.2 checking installable status
+526 http fetch GET 200 https://registry.npmjs.org/merge-descriptors 54ms
+527 silly pacote version manifest for array-flatten@1.1.1 fetched in 190ms
+528 silly resolveWithNewModule array-flatten@1.1.1 checking installable status
+529 http fetch GET 200 https://registry.npmjs.org/parseurl 35ms
+530 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 35ms
+531 http fetch GET 200 https://registry.npmjs.org/range-parser 40ms
+532 http fetch GET 200 https://registry.npmjs.org/vary 39ms
+533 http fetch GET 200 https://registry.npmjs.org/methods 74ms
+534 http fetch GET 200 https://registry.npmjs.org/serve-static 53ms
+535 http fetch GET 200 https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz 54ms
+536 http fetch GET 200 https://registry.npmjs.org/proxy-addr 66ms
+537 http fetch GET 200 https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz 47ms
+538 http fetch GET 200 https://registry.npmjs.org/utils-merge 68ms
+539 silly pacote version manifest for merge-descriptors@1.0.1 fetched in 123ms
+540 silly resolveWithNewModule merge-descriptors@1.0.1 checking installable status
+541 http fetch GET 200 https://registry.npmjs.org/send 74ms
+542 http fetch GET 200 https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz 47ms
+543 silly pacote range manifest for parseurl@~1.3.3 fetched in 96ms
+544 silly resolveWithNewModule parseurl@1.3.3 checking installable status
+545 http fetch GET 200 https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz 38ms
+546 silly pacote version manifest for path-to-regexp@0.1.7 fetched in 88ms
+547 silly resolveWithNewModule path-to-regexp@0.1.7 checking installable status
+548 silly pacote range manifest for range-parser@~1.2.1 fetched in 83ms
+549 silly resolveWithNewModule range-parser@1.2.1 checking installable status
+550 http fetch GET 200 https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 31ms
+551 silly pacote range manifest for vary@~1.1.2 fetched in 75ms
+552 silly resolveWithNewModule vary@1.1.2 checking installable status
+553 http fetch GET 200 https://registry.npmjs.org/serve-static/-/serve-static-1.15.0.tgz 36ms
+554 silly pacote version manifest for serve-static@1.15.0 fetched in 95ms
+555 silly resolveWithNewModule serve-static@1.15.0 checking installable status
+556 http fetch GET 200 https://registry.npmjs.org/methods/-/methods-1.1.2.tgz 44ms
+557 http fetch GET 200 https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz 36ms
+558 silly pacote range manifest for methods@~1.1.2 fetched in 123ms
+559 silly resolveWithNewModule methods@1.1.2 checking installable status
+560 http fetch GET 200 https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz 31ms
+561 silly pacote range manifest for proxy-addr@~2.0.7 fetched in 108ms
+562 silly resolveWithNewModule proxy-addr@2.0.7 checking installable status
+563 silly pacote version manifest for utils-merge@1.0.1 fetched in 104ms
+564 silly resolveWithNewModule utils-merge@1.0.1 checking installable status
+565 http fetch GET 200 https://registry.npmjs.org/send/-/send-0.18.0.tgz 32ms
+566 silly pacote version manifest for send@0.18.0 fetched in 108ms
+567 silly resolveWithNewModule send@0.18.0 checking installable status
+568 http fetch GET 200 https://registry.npmjs.org/negotiator 38ms
+569 http fetch GET 200 https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz 36ms
+570 silly pacote version manifest for negotiator@0.6.3 fetched in 78ms
+571 silly resolveWithNewModule negotiator@0.6.3 checking installable status
+572 http fetch GET 200 https://registry.npmjs.org/ipaddr.js 34ms
+573 http fetch GET 200 https://registry.npmjs.org/forwarded 41ms
+574 http fetch GET 200 https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz 35ms
+575 silly pacote version manifest for ipaddr.js@1.9.1 fetched in 75ms
+576 silly resolveWithNewModule ipaddr.js@1.9.1 checking installable status
+577 http fetch GET 200 https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz 39ms
+578 silly pacote version manifest for forwarded@0.2.0 fetched in 84ms
+579 silly resolveWithNewModule forwarded@0.2.0 checking installable status
+580 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 44ms
+581 http fetch GET 200 https://registry.npmjs.org/mime 47ms
+582 silly pacote version manifest for ms@2.1.3 fetched in 53ms
+583 silly resolveWithNewModule ms@2.1.3 checking installable status
+584 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 40ms
+585 silly pacote version manifest for mime@1.6.0 fetched in 94ms
+586 silly resolveWithNewModule mime@1.6.0 checking installable status
+587 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.6.2.tgz 60ms
+588 silly pacote range manifest for axios@^1.4.0 fetched in 64ms
+589 silly resolveWithNewModule axios@1.6.2 checking installable status
+590 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 45ms
+591 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 38ms
+592 silly pacote range manifest for proxy-from-env@^1.1.0 fetched in 87ms
+593 silly resolveWithNewModule proxy-from-env@1.1.0 checking installable status
+594 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz 49ms
+595 http fetch GET 200 https://registry.npmjs.org/sqlstring 57ms
+596 http fetch GET 200 https://registry.npmjs.org/bignumber.js 59ms
+597 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 57ms
+598 silly pacote version manifest for readable-stream@2.3.7 fetched in 67ms
+599 silly resolveWithNewModule readable-stream@2.3.7 checking installable status
+600 silly pacote version manifest for safe-buffer@5.1.2 fetched in 69ms
+601 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+602 http fetch GET 200 https://registry.npmjs.org/bignumber.js/-/bignumber.js-9.0.0.tgz 50ms
+603 http fetch GET 200 https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.1.tgz 53ms
+604 silly pacote version manifest for bignumber.js@9.0.0 fetched in 117ms
+605 silly resolveWithNewModule bignumber.js@9.0.0 checking installable status
+606 silly pacote version manifest for sqlstring@2.3.1 fetched in 117ms
+607 silly resolveWithNewModule sqlstring@2.3.1 checking installable status
+608 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 46ms
+609 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz 42ms
+610 http fetch GET 200 https://registry.npmjs.org/core-util-is 49ms
+611 http fetch GET 200 https://registry.npmjs.org/isarray 53ms
+612 silly pacote range manifest for string_decoder@~1.1.1 fetched in 57ms
+613 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+614 http fetch GET 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz 39ms
+615 http fetch GET 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz 43ms
+616 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 38ms
+617 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 98ms
+618 silly resolveWithNewModule process-nextick-args@2.0.1 checking installable status
+619 silly pacote range manifest for core-util-is@~1.0.0 fetched in 100ms
+620 silly resolveWithNewModule core-util-is@1.0.3 checking installable status
+621 silly pacote range manifest for isarray@~1.0.0 fetched in 100ms
+622 silly resolveWithNewModule isarray@1.0.0 checking installable status
+623 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 16368ms
+624 timing stage:loadIdealTree Completed in 16514ms
+625 silly currentTree surviria@1.0.0
+625 silly currentTree +-- @discordjs/builders@1.7.0
+625 silly currentTree | `-- discord-api-types@0.37.61
+625 silly currentTree +-- @discordjs/collection@1.5.3
+625 silly currentTree +-- @discordjs/formatters@0.3.3
+625 silly currentTree | `-- discord-api-types@0.37.61
+625 silly currentTree +-- @discordjs/rest@1.1.0
+625 silly currentTree +-- @discordjs/util@1.0.2
+625 silly currentTree +-- @discordjs/ws@1.0.2
+625 silly currentTree | +-- @discordjs/collection@2.0.0
+625 silly currentTree | +-- @discordjs/rest@2.2.0
+625 silly currentTree | +-- discord-api-types@0.37.61
+625 silly currentTree | `-- undici@5.27.2
+625 silly currentTree +-- @fastify/busboy@2.1.0
+625 silly currentTree +-- @sapphire/async-queue@1.5.1
+625 silly currentTree +-- @sapphire/shapeshift@3.9.5
+625 silly currentTree +-- @sapphire/snowflake@3.5.2
+625 silly currentTree +-- @tokenizer/token@0.3.0
+625 silly currentTree +-- @types/node@20.10.4
+625 silly currentTree +-- @types/ws@8.5.9
+625 silly currentTree +-- @vladfrangu/async_event_emitter@2.2.4
+625 silly currentTree +-- accepts@1.3.8
+625 silly currentTree +-- array-flatten@1.1.1
+625 silly currentTree +-- asynckit@0.4.0
+625 silly currentTree +-- axios@0.27.2
+625 silly currentTree +-- bignumber.js@9.0.0
+625 silly currentTree +-- body-parser@1.20.0
+625 silly currentTree +-- bytes@3.1.2
+625 silly currentTree +-- call-bind@1.0.5
+625 silly currentTree +-- combined-stream@1.0.8
+625 silly currentTree +-- content-disposition@0.5.4
+625 silly currentTree +-- content-type@1.0.5
+625 silly currentTree +-- cookie-signature@1.0.6
+625 silly currentTree +-- cookie@0.5.0
+625 silly currentTree +-- core-util-is@1.0.3
+625 silly currentTree +-- debug@2.6.9
+625 silly currentTree +-- define-data-property@1.1.1
+625 silly currentTree +-- delayed-stream@1.0.0
+625 silly currentTree +-- depd@2.0.0
+625 silly currentTree +-- destroy@1.2.0
+625 silly currentTree +-- discord-api-types@0.37.66
+625 silly currentTree +-- discord.js@14.14.1
+625 silly currentTree | +-- @discordjs/rest@2.2.0
+625 silly currentTree | | `-- @discordjs/collection@2.0.0
+625 silly currentTree | +-- @sapphire/snowflake@3.5.1
+625 silly currentTree | +-- discord-api-types@0.37.61
+625 silly currentTree | `-- undici@5.27.2
+625 silly currentTree +-- ee-first@1.1.1
+625 silly currentTree +-- encodeurl@1.0.2
+625 silly currentTree +-- escape-html@1.0.3
+625 silly currentTree +-- etag@1.8.1
+625 silly currentTree +-- express@4.18.1
+625 silly currentTree +-- fast-deep-equal@3.1.3
+625 silly currentTree +-- file-type@17.1.6
+625 silly currentTree +-- finalhandler@1.2.0
+625 silly currentTree +-- follow-redirects@1.15.3
+625 silly currentTree +-- form-data@4.0.0
+625 silly currentTree +-- forwarded@0.2.0
+625 silly currentTree +-- fresh@0.5.2
+625 silly currentTree +-- function-bind@1.1.2
+625 silly currentTree +-- get-intrinsic@1.2.2
+625 silly currentTree +-- google-spreadsheet@4.1.1
+625 silly currentTree | `-- axios@1.6.2
+625 silly currentTree +-- gopd@1.0.1
+625 silly currentTree +-- has-property-descriptors@1.0.1
+625 silly currentTree +-- has-proto@1.0.1
+625 silly currentTree +-- has-symbols@1.0.3
+625 silly currentTree +-- hasown@2.0.0
+625 silly currentTree +-- http-errors@2.0.0
+625 silly currentTree +-- iconv-lite@0.4.24
+625 silly currentTree +-- ieee754@1.2.1
+625 silly currentTree +-- inherits@2.0.4
+625 silly currentTree +-- ipaddr.js@1.9.1
+625 silly currentTree +-- isarray@1.0.0
+625 silly currentTree +-- lodash.snakecase@4.1.1
+625 silly currentTree +-- lodash@4.17.21
+625 silly currentTree +-- magic-bytes.js@1.7.0
+625 silly currentTree +-- media-typer@0.3.0
+625 silly currentTree +-- merge-descriptors@1.0.1
+625 silly currentTree +-- methods@1.1.2
+625 silly currentTree +-- mime-db@1.52.0
+625 silly currentTree +-- mime-types@2.1.35
+625 silly currentTree +-- mime@1.6.0
+625 silly currentTree +-- ms@2.0.0
+625 silly currentTree +-- mysql@2.18.1
+625 silly currentTree | `-- safe-buffer@5.1.2
+625 silly currentTree +-- negotiator@0.6.3
+625 silly currentTree +-- object-inspect@1.13.1
+625 silly currentTree +-- on-finished@2.4.1
+625 silly currentTree +-- parseurl@1.3.3
+625 silly currentTree +-- path-to-regexp@0.1.7
+625 silly currentTree +-- peek-readable@5.0.0
+625 silly currentTree +-- process-nextick-args@2.0.1
+625 silly currentTree +-- proxy-addr@2.0.7
+625 silly currentTree +-- proxy-from-env@1.1.0
+625 silly currentTree +-- qs@6.10.3
+625 silly currentTree +-- range-parser@1.2.1
+625 silly currentTree +-- raw-body@2.5.1
+625 silly currentTree +-- readable-stream@2.3.7
+625 silly currentTree | `-- safe-buffer@5.1.2
+625 silly currentTree +-- readable-web-to-node-stream@3.0.2
+625 silly currentTree | `-- readable-stream@3.6.2
+625 silly currentTree +-- safe-buffer@5.2.1
+625 silly currentTree +-- safer-buffer@2.1.2
+625 silly currentTree +-- send@0.18.0
+625 silly currentTree | `-- ms@2.1.3
+625 silly currentTree +-- serve-static@1.15.0
+625 silly currentTree +-- set-function-length@1.1.1
+625 silly currentTree +-- setprototypeof@1.2.0
+625 silly currentTree +-- side-channel@1.0.4
+625 silly currentTree +-- sqlstring@2.3.1
+625 silly currentTree +-- statuses@2.0.1
+625 silly currentTree +-- string_decoder@1.1.1
+625 silly currentTree | `-- safe-buffer@5.1.2
+625 silly currentTree +-- strtok3@7.0.0
+625 silly currentTree +-- toidentifier@1.0.1
+625 silly currentTree +-- token-types@5.0.1
+625 silly currentTree +-- ts-mixer@6.0.3
+625 silly currentTree +-- tslib@2.6.2
+625 silly currentTree +-- type-is@1.6.18
+625 silly currentTree +-- undici-types@5.26.5
+625 silly currentTree +-- undici@5.28.2
+625 silly currentTree +-- unpipe@1.0.0
+625 silly currentTree +-- util-deprecate@1.0.2
+625 silly currentTree +-- utils-merge@1.0.1
+625 silly currentTree +-- vary@1.1.2
+625 silly currentTree `-- ws@8.14.2
+626 silly idealTree surviria@1.0.0
+626 silly idealTree +-- @discordjs/builders@1.7.0
+626 silly idealTree | `-- discord-api-types@0.37.61
+626 silly idealTree +-- @discordjs/collection@1.5.3
+626 silly idealTree +-- @discordjs/formatters@0.3.3
+626 silly idealTree | `-- discord-api-types@0.37.61
+626 silly idealTree +-- @discordjs/rest@1.1.0
+626 silly idealTree +-- @discordjs/util@1.0.2
+626 silly idealTree +-- @discordjs/ws@1.0.2
+626 silly idealTree | +-- @discordjs/collection@2.0.0
+626 silly idealTree | +-- @discordjs/rest@2.2.0
+626 silly idealTree | +-- discord-api-types@0.37.61
+626 silly idealTree | `-- undici@5.27.2
+626 silly idealTree +-- @fastify/busboy@2.1.0
+626 silly idealTree +-- @sapphire/async-queue@1.5.1
+626 silly idealTree +-- @sapphire/shapeshift@3.9.5
+626 silly idealTree +-- @sapphire/snowflake@3.5.2
+626 silly idealTree +-- @tokenizer/token@0.3.0
+626 silly idealTree +-- @types/node@20.10.5
+626 silly idealTree +-- @types/ws@8.5.9
+626 silly idealTree +-- @vladfrangu/async_event_emitter@2.2.4
+626 silly idealTree +-- accepts@1.3.8
+626 silly idealTree +-- array-flatten@1.1.1
+626 silly idealTree +-- asynckit@0.4.0
+626 silly idealTree +-- axios@0.27.2
+626 silly idealTree +-- bignumber.js@9.0.0
+626 silly idealTree +-- body-parser@1.20.0
+626 silly idealTree +-- bytes@3.1.2
+626 silly idealTree +-- call-bind@1.0.5
+626 silly idealTree +-- combined-stream@1.0.8
+626 silly idealTree +-- content-disposition@0.5.4
+626 silly idealTree +-- content-type@1.0.5
+626 silly idealTree +-- cookie-signature@1.0.6
+626 silly idealTree +-- cookie@0.5.0
+626 silly idealTree +-- core-util-is@1.0.3
+626 silly idealTree +-- debug@2.6.9
+626 silly idealTree +-- define-data-property@1.1.1
+626 silly idealTree +-- delayed-stream@1.0.0
+626 silly idealTree +-- depd@2.0.0
+626 silly idealTree +-- destroy@1.2.0
+626 silly idealTree +-- discord-api-types@0.37.66
+626 silly idealTree +-- discord.js@14.14.1
+626 silly idealTree | +-- @discordjs/rest@2.2.0
+626 silly idealTree | | `-- @discordjs/collection@2.0.0
+626 silly idealTree | +-- @sapphire/snowflake@3.5.1
+626 silly idealTree | +-- discord-api-types@0.37.61
+626 silly idealTree | `-- undici@5.27.2
+626 silly idealTree +-- ee-first@1.1.1
+626 silly idealTree +-- encodeurl@1.0.2
+626 silly idealTree +-- escape-html@1.0.3
+626 silly idealTree +-- etag@1.8.1
+626 silly idealTree +-- express@4.18.1
+626 silly idealTree +-- fast-deep-equal@3.1.3
+626 silly idealTree +-- file-type@17.1.6
+626 silly idealTree +-- finalhandler@1.2.0
+626 silly idealTree +-- follow-redirects@1.15.3
+626 silly idealTree +-- form-data@4.0.0
+626 silly idealTree +-- forwarded@0.2.0
+626 silly idealTree +-- fresh@0.5.2
+626 silly idealTree +-- function-bind@1.1.2
+626 silly idealTree +-- get-intrinsic@1.2.2
+626 silly idealTree +-- google-spreadsheet@4.1.1
+626 silly idealTree | `-- axios@1.6.2
+626 silly idealTree +-- gopd@1.0.1
+626 silly idealTree +-- has-property-descriptors@1.0.1
+626 silly idealTree +-- has-proto@1.0.1
+626 silly idealTree +-- has-symbols@1.0.3
+626 silly idealTree +-- hasown@2.0.0
+626 silly idealTree +-- http-errors@2.0.0
+626 silly idealTree +-- iconv-lite@0.4.24
+626 silly idealTree +-- ieee754@1.2.1
+626 silly idealTree +-- inherits@2.0.4
+626 silly idealTree +-- ipaddr.js@1.9.1
+626 silly idealTree +-- isarray@1.0.0
+626 silly idealTree +-- lodash.snakecase@4.1.1
+626 silly idealTree +-- lodash@4.17.21
+626 silly idealTree +-- magic-bytes.js@1.7.0
+626 silly idealTree +-- media-typer@0.3.0
+626 silly idealTree +-- merge-descriptors@1.0.1
+626 silly idealTree +-- methods@1.1.2
+626 silly idealTree +-- mime-db@1.52.0
+626 silly idealTree +-- mime-types@2.1.35
+626 silly idealTree +-- mime@1.6.0
+626 silly idealTree +-- ms@2.0.0
+626 silly idealTree +-- mysql@2.18.1
+626 silly idealTree | +-- readable-stream@2.3.7
+626 silly idealTree | +-- safe-buffer@5.1.2
+626 silly idealTree | `-- string_decoder@1.1.1
+626 silly idealTree +-- negotiator@0.6.3
+626 silly idealTree +-- object-inspect@1.13.1
+626 silly idealTree +-- on-finished@2.4.1
+626 silly idealTree +-- parseurl@1.3.3
+626 silly idealTree +-- path-to-regexp@0.1.7
+626 silly idealTree +-- peek-readable@5.0.0
+626 silly idealTree +-- process-nextick-args@2.0.1
+626 silly idealTree +-- proxy-addr@2.0.7
+626 silly idealTree +-- proxy-from-env@1.1.0
+626 silly idealTree +-- qs@6.10.3
+626 silly idealTree +-- range-parser@1.2.1
+626 silly idealTree +-- raw-body@2.5.1
+626 silly idealTree +-- readable-stream@3.6.2
+626 silly idealTree +-- readable-web-to-node-stream@3.0.2
+626 silly idealTree +-- safe-buffer@5.2.1
+626 silly idealTree +-- safer-buffer@2.1.2
+626 silly idealTree +-- send@0.18.0
+626 silly idealTree | `-- ms@2.1.3
+626 silly idealTree +-- serve-static@1.15.0
+626 silly idealTree +-- set-function-length@1.1.1
+626 silly idealTree +-- setprototypeof@1.2.0
+626 silly idealTree +-- side-channel@1.0.4
+626 silly idealTree +-- sqlstring@2.3.1
+626 silly idealTree +-- statuses@2.0.1
+626 silly idealTree +-- string_decoder@1.3.0
+626 silly idealTree +-- strtok3@7.0.0
+626 silly idealTree +-- toidentifier@1.0.1
+626 silly idealTree +-- token-types@5.0.1
+626 silly idealTree +-- ts-mixer@6.0.3
+626 silly idealTree +-- tslib@2.6.2
+626 silly idealTree +-- type-is@1.6.18
+626 silly idealTree +-- undici-types@5.26.5
+626 silly idealTree +-- undici@5.28.2
+626 silly idealTree +-- unpipe@1.0.0
+626 silly idealTree +-- util-deprecate@1.0.2
+626 silly idealTree +-- utils-merge@1.0.1
+626 silly idealTree +-- vary@1.1.2
+626 silly idealTree `-- ws@8.14.2
+627 silly install generateActionsToTake
+628 silly diff-trees filtering actions: includeDev false includeProd true includeOpt true
+629 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/builders/node_modules/discord-api-types
+630 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/collection
+631 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/formatters/node_modules/discord-api-types
+632 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/formatters
+633 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/util
+634 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/ws/node_modules/@discordjs/collection
+635 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/ws/node_modules/discord-api-types
+636 warn checkPermissions Missing write access to /home/container/node_modules/@fastify/busboy
+637 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/ws/node_modules/undici
+638 warn checkPermissions Missing write access to /home/container/node_modules/@sapphire/async-queue
+639 warn checkPermissions Missing write access to /home/container/node_modules/@sapphire/snowflake
+640 warn checkPermissions Missing write access to /home/container/node_modules/@tokenizer/token
+641 warn checkPermissions Missing write access to /home/container/node_modules/@vladfrangu/async_event_emitter
+642 warn checkPermissions Missing write access to /home/container/node_modules/@sapphire/shapeshift
+643 warn checkPermissions Missing write access to /home/container/node_modules/negotiator
+644 warn checkPermissions Missing write access to /home/container/node_modules/object-inspect
+645 warn checkPermissions Missing write access to /home/container/node_modules/on-finished
+646 warn checkPermissions Missing write access to /home/container/node_modules/parseurl
+647 warn checkPermissions Missing write access to /home/container/node_modules/path-to-regexp
+648 warn checkPermissions Missing write access to /home/container/node_modules/peek-readable
+649 warn checkPermissions Missing write access to /home/container/node_modules/process-nextick-args
+650 warn checkPermissions Missing write access to /home/container/node_modules/proxy-addr
+651 warn checkPermissions Missing write access to /home/container/node_modules/proxy-from-env
+652 warn checkPermissions Missing write access to /home/container/node_modules/range-parser
+653 warn checkPermissions Missing write access to /home/container/node_modules/readable-stream/node_modules/safe-buffer
+654 warn checkPermissions Missing write access to /home/container/node_modules/readable-web-to-node-stream/node_modules/readable-stream
+655 warn checkPermissions Missing write access to /home/container/node_modules/safe-buffer
+656 warn checkPermissions Missing write access to /home/container/node_modules/safer-buffer
+657 warn checkPermissions Missing write access to /home/container/node_modules/send/node_modules/ms
+658 warn checkPermissions Missing write access to /home/container/node_modules/set-function-length
+659 warn checkPermissions Missing write access to /home/container/node_modules/setprototypeof
+660 warn checkPermissions Missing write access to /home/container/node_modules/side-channel
+661 warn checkPermissions Missing write access to /home/container/node_modules/sqlstring
+662 warn checkPermissions Missing write access to /home/container/node_modules/qs
+663 warn checkPermissions Missing write access to /home/container/node_modules/statuses
+664 warn checkPermissions Missing write access to /home/container/node_modules/string_decoder
+665 warn checkPermissions Missing write access to /home/container/node_modules/string_decoder/node_modules/safe-buffer
+666 warn checkPermissions Missing write access to /home/container/node_modules/toidentifier
+667 warn checkPermissions Missing write access to /home/container/node_modules/strtok3
+668 warn checkPermissions Missing write access to /home/container/node_modules/serve-static
+669 warn checkPermissions Missing write access to /home/container/node_modules/send
+670 warn checkPermissions Missing write access to /home/container/node_modules/token-types
+671 warn checkPermissions Missing write access to /home/container/node_modules/ts-mixer
+672 warn checkPermissions Missing write access to /home/container/node_modules/tslib
+673 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/builders
+674 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/ws/node_modules/@discordjs/rest
+675 warn checkPermissions Missing write access to /home/container/node_modules/type-is
+676 warn checkPermissions Missing write access to /home/container/node_modules/undici
+677 warn checkPermissions Missing write access to /home/container/node_modules/undici-types
+678 warn checkPermissions Missing write access to /home/container/node_modules/@types/node
+679 warn checkPermissions Missing write access to /home/container/node_modules/@types/ws
+680 warn checkPermissions Missing write access to /home/container/node_modules/unpipe
+681 warn checkPermissions Missing write access to /home/container/node_modules/raw-body
+682 warn checkPermissions Missing write access to /home/container/node_modules/util-deprecate
+683 warn checkPermissions Missing write access to /home/container/node_modules/readable-stream
+684 warn checkPermissions Missing write access to /home/container/node_modules/readable-web-to-node-stream
+685 warn checkPermissions Missing write access to /home/container/node_modules/utils-merge
+686 warn checkPermissions Missing write access to /home/container/node_modules/vary
+687 warn checkPermissions Missing write access to /home/container/node_modules/ws
+688 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/ws
+689 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/rest
+690 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/builders/node_modules
+691 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs
+692 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/formatters/node_modules
+693 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/ws/node_modules/@discordjs
+694 warn checkPermissions Missing write access to /home/container/node_modules/@discordjs/ws/node_modules
+695 warn checkPermissions Missing write access to /home/container/node_modules/@fastify
+696 warn checkPermissions Missing write access to /home/container/node_modules/@sapphire
+697 warn checkPermissions Missing write access to /home/container/node_modules/@tokenizer
+698 warn checkPermissions Missing write access to /home/container/node_modules/@vladfrangu
+699 warn checkPermissions Missing write access to /home/container/node_modules
+700 warn checkPermissions Missing write access to /home/container/node_modules/readable-web-to-node-stream/node_modules
+701 warn checkPermissions Missing write access to /home/container/node_modules/readable-stream/node_modules
+702 warn checkPermissions Missing write access to /home/container/node_modules/send/node_modules
+703 warn checkPermissions Missing write access to /home/container/node_modules/string_decoder/node_modules
+704 warn checkPermissions Missing write access to /home/container/node_modules/@types
+705 timing stage:rollbackFailedOptional Completed in 1ms
+706 timing stage:runTopLevelLifecycles Completed in 16844ms
+707 silly saveTree surviria@1.0.0
+707 silly saveTree +-- @discordjs/rest@1.1.0
+707 silly saveTree | +-- @discordjs/collection@1.5.3
+707 silly saveTree | +-- @sapphire/async-queue@1.5.1
+707 silly saveTree | +-- @sapphire/snowflake@3.5.2
+707 silly saveTree | +-- discord-api-types@0.37.66
+707 silly saveTree | +-- file-type@17.1.6
+707 silly saveTree | | +-- readable-web-to-node-stream@3.0.2
+707 silly saveTree | | | `-- readable-stream@3.6.2
+707 silly saveTree | | |   +-- inherits@2.0.4
+707 silly saveTree | | |   +-- string_decoder@1.3.0
+707 silly saveTree | | |   | `-- safe-buffer@5.2.1
+707 silly saveTree | | |   `-- util-deprecate@1.0.2
+707 silly saveTree | | +-- strtok3@7.0.0
+707 silly saveTree | | | +-- @tokenizer/token@0.3.0
+707 silly saveTree | | | `-- peek-readable@5.0.0
+707 silly saveTree | | `-- token-types@5.0.1
+707 silly saveTree | |   `-- ieee754@1.2.1
+707 silly saveTree | +-- tslib@2.6.2
+707 silly saveTree | `-- undici@5.28.2
+707 silly saveTree |   `-- @fastify/busboy@2.1.0
+707 silly saveTree +-- axios@0.27.2
+707 silly saveTree | +-- follow-redirects@1.15.3
+707 silly saveTree | `-- form-data@4.0.0
+707 silly saveTree |   +-- asynckit@0.4.0
+707 silly saveTree |   +-- combined-stream@1.0.8
+707 silly saveTree |   | `-- delayed-stream@1.0.0
+707 silly saveTree |   `-- mime-types@2.1.35
+707 silly saveTree |     `-- mime-db@1.52.0
+707 silly saveTree +-- body-parser@1.20.0
+707 silly saveTree | +-- bytes@3.1.2
+707 silly saveTree | +-- content-type@1.0.5
+707 silly saveTree | +-- debug@2.6.9
+707 silly saveTree | | `-- ms@2.0.0
+707 silly saveTree | +-- depd@2.0.0
+707 silly saveTree | +-- destroy@1.2.0
+707 silly saveTree | +-- http-errors@2.0.0
+707 silly saveTree | | +-- setprototypeof@1.2.0
+707 silly saveTree | | +-- statuses@2.0.1
+707 silly saveTree | | `-- toidentifier@1.0.1
+707 silly saveTree | +-- iconv-lite@0.4.24
+707 silly saveTree | | `-- safer-buffer@2.1.2
+707 silly saveTree | +-- on-finished@2.4.1
+707 silly saveTree | | `-- ee-first@1.1.1
+707 silly saveTree | +-- qs@6.10.3
+707 silly saveTree | | `-- side-channel@1.0.4
+707 silly saveTree | |   +-- call-bind@1.0.5
+707 silly saveTree | |   | +-- function-bind@1.1.2
+707 silly saveTree | |   | +-- get-intrinsic@1.2.2
+707 silly saveTree | |   | | +-- has-proto@1.0.1
+707 silly saveTree | |   | | +-- has-symbols@1.0.3
+707 silly saveTree | |   | | `-- hasown@2.0.0
+707 silly saveTree | |   | `-- set-function-length@1.1.1
+707 silly saveTree | |   |   +-- define-data-property@1.1.1
+707 silly saveTree | |   |   | +-- gopd@1.0.1
+707 silly saveTree | |   |   | `-- has-property-descriptors@1.0.1
+707 silly saveTree | |   |   +-- gopd@1.0.1
+707 silly saveTree | |   |   `-- has-property-descriptors@1.0.1
+707 silly saveTree | |   +-- get-intrinsic@1.2.2
+707 silly saveTree | |   `-- object-inspect@1.13.1
+707 silly saveTree | +-- raw-body@2.5.1
+707 silly saveTree | | `-- unpipe@1.0.0
+707 silly saveTree | +-- type-is@1.6.18
+707 silly saveTree | | `-- media-typer@0.3.0
+707 silly saveTree | `-- unpipe@1.0.0
+707 silly saveTree +-- discord.js@14.14.1
+707 silly saveTree | +-- @discordjs/builders@1.7.0
+707 silly saveTree | | +-- @discordjs/formatters@0.3.3
+707 silly saveTree | | | `-- discord-api-types@0.37.61
+707 silly saveTree | | +-- @discordjs/util@1.0.2
+707 silly saveTree | | +-- @sapphire/shapeshift@3.9.5
+707 silly saveTree | | | +-- fast-deep-equal@3.1.3
+707 silly saveTree | | | `-- lodash@4.17.21
+707 silly saveTree | | +-- discord-api-types@0.37.61
+707 silly saveTree | | +-- fast-deep-equal@3.1.3
+707 silly saveTree | | `-- ts-mixer@6.0.3
+707 silly saveTree | +-- @discordjs/formatters@0.3.3
+707 silly saveTree | +-- @discordjs/rest@2.2.0
+707 silly saveTree | | +-- @discordjs/collection@2.0.0
+707 silly saveTree | | +-- @sapphire/snowflake@3.5.1
+707 silly saveTree | | +-- @vladfrangu/async_event_emitter@2.2.4
+707 silly saveTree | | +-- discord-api-types@0.37.61
+707 silly saveTree | | +-- magic-bytes.js@1.7.0
+707 silly saveTree | | `-- undici@5.27.2
+707 silly saveTree | +-- @discordjs/util@1.0.2
+707 silly saveTree | +-- @discordjs/ws@1.0.2
+707 silly saveTree | | +-- @discordjs/collection@2.0.0
+707 silly saveTree | | +-- @discordjs/rest@2.2.0
+707 silly saveTree | | | +-- discord-api-types@0.37.61
+707 silly saveTree | | | `-- undici@5.27.2
+707 silly saveTree | | +-- @types/ws@8.5.9
+707 silly saveTree | | | `-- @types/node@20.10.5
+707 silly saveTree | | |   `-- undici-types@5.26.5
+707 silly saveTree | | +-- discord-api-types@0.37.61
+707 silly saveTree | | `-- ws@8.14.2
+707 silly saveTree | +-- @sapphire/snowflake@3.5.1
+707 silly saveTree | +-- @types/ws@8.5.9
+707 silly saveTree | +-- discord-api-types@0.37.61
+707 silly saveTree | +-- fast-deep-equal@3.1.3
+707 silly saveTree | +-- lodash.snakecase@4.1.1
+707 silly saveTree | +-- undici@5.27.2
+707 silly saveTree | `-- ws@8.14.2
+707 silly saveTree +-- express@4.18.1
+707 silly saveTree | +-- accepts@1.3.8
+707 silly saveTree | | `-- negotiator@0.6.3
+707 silly saveTree | +-- array-flatten@1.1.1
+707 silly saveTree | +-- content-disposition@0.5.4
+707 silly saveTree | +-- cookie-signature@1.0.6
+707 silly saveTree | +-- cookie@0.5.0
+707 silly saveTree | +-- encodeurl@1.0.2
+707 silly saveTree | +-- escape-html@1.0.3
+707 silly saveTree | +-- etag@1.8.1
+707 silly saveTree | +-- finalhandler@1.2.0
+707 silly saveTree | | `-- parseurl@1.3.3
+707 silly saveTree | +-- fresh@0.5.2
+707 silly saveTree | +-- merge-descriptors@1.0.1
+707 silly saveTree | +-- methods@1.1.2
+707 silly saveTree | +-- parseurl@1.3.3
+707 silly saveTree | +-- path-to-regexp@0.1.7
+707 silly saveTree | +-- proxy-addr@2.0.7
+707 silly saveTree | | +-- forwarded@0.2.0
+707 silly saveTree | | `-- ipaddr.js@1.9.1
+707 silly saveTree | +-- range-parser@1.2.1
+707 silly saveTree | +-- send@0.18.0
+707 silly saveTree | | +-- mime@1.6.0
+707 silly saveTree | | `-- ms@2.1.3
+707 silly saveTree | +-- serve-static@1.15.0
+707 silly saveTree | +-- utils-merge@1.0.1
+707 silly saveTree | `-- vary@1.1.2
+707 silly saveTree +-- google-spreadsheet@4.1.1
+707 silly saveTree | `-- axios@1.6.2
+707 silly saveTree |   `-- proxy-from-env@1.1.0
+707 silly saveTree `-- mysql@2.18.1
+707 silly saveTree   +-- bignumber.js@9.0.0
+707 silly saveTree   +-- readable-stream@2.3.7
+707 silly saveTree   | +-- core-util-is@1.0.3
+707 silly saveTree   | +-- isarray@1.0.0
+707 silly saveTree   | +-- process-nextick-args@2.0.1
+707 silly saveTree   | +-- safe-buffer@5.1.2
+707 silly saveTree   | `-- string_decoder@1.1.1
+707 silly saveTree   +-- safe-buffer@5.1.2
+707 silly saveTree   `-- sqlstring@2.3.1
+708 warn notsup Unsupported engine for discord.js@14.14.1: wanted: {"node":">=16.11.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+709 warn notsup Not compatible with your version of node/npm: discord.js@14.14.1
+710 verbose notsup Not compatible with your version of node/npm: discord.js@14.14.1
+710 verbose notsup Required: {"node":">=16.11.0"}
+710 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+711 warn notsup Unsupported engine for @discordjs/rest@1.1.0: wanted: {"node":">=16.9.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+712 warn notsup Not compatible with your version of node/npm: @discordjs/rest@1.1.0
+713 verbose notsup Not compatible with your version of node/npm: @discordjs/rest@1.1.0
+713 verbose notsup Required: {"node":">=16.9.0"}
+713 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+714 warn notsup Unsupported engine for undici@5.28.2: wanted: {"node":">=14.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+715 warn notsup Not compatible with your version of node/npm: undici@5.28.2
+716 verbose notsup Not compatible with your version of node/npm: undici@5.28.2
+716 verbose notsup Required: {"node":">=14.0"}
+716 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+717 warn notsup Unsupported engine for @sapphire/async-queue@1.5.1: wanted: {"node":">=v14.0.0","npm":">=7.0.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+718 warn notsup Not compatible with your version of node/npm: @sapphire/async-queue@1.5.1
+719 verbose notsup Not compatible with your version of node/npm: @sapphire/async-queue@1.5.1
+719 verbose notsup Required: {"node":">=v14.0.0","npm":">=7.0.0"}
+719 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+720 warn notsup Unsupported engine for @sapphire/snowflake@3.5.2: wanted: {"node":">=v14.0.0","npm":">=7.0.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+721 warn notsup Not compatible with your version of node/npm: @sapphire/snowflake@3.5.2
+722 verbose notsup Not compatible with your version of node/npm: @sapphire/snowflake@3.5.2
+722 verbose notsup Required: {"node":">=v14.0.0","npm":">=7.0.0"}
+722 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+723 warn notsup Unsupported engine for @discordjs/collection@1.5.3: wanted: {"node":">=16.11.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+724 warn notsup Not compatible with your version of node/npm: @discordjs/collection@1.5.3
+725 verbose notsup Not compatible with your version of node/npm: @discordjs/collection@1.5.3
+725 verbose notsup Required: {"node":">=16.11.0"}
+725 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+726 warn notsup Unsupported engine for strtok3@7.0.0: wanted: {"node":">=14.16"} (current: {"node":"12.22.1","npm":"6.14.12"})
+727 warn notsup Not compatible with your version of node/npm: strtok3@7.0.0
+728 verbose notsup Not compatible with your version of node/npm: strtok3@7.0.0
+728 verbose notsup Required: {"node":">=14.16"}
+728 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+729 warn notsup Unsupported engine for token-types@5.0.1: wanted: {"node":">=14.16"} (current: {"node":"12.22.1","npm":"6.14.12"})
+730 warn notsup Not compatible with your version of node/npm: token-types@5.0.1
+731 verbose notsup Not compatible with your version of node/npm: token-types@5.0.1
+731 verbose notsup Required: {"node":">=14.16"}
+731 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+732 warn notsup Unsupported engine for peek-readable@5.0.0: wanted: {"node":">=14.16"} (current: {"node":"12.22.1","npm":"6.14.12"})
+733 warn notsup Not compatible with your version of node/npm: peek-readable@5.0.0
+734 verbose notsup Not compatible with your version of node/npm: peek-readable@5.0.0
+734 verbose notsup Required: {"node":">=14.16"}
+734 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+735 warn notsup Unsupported engine for @fastify/busboy@2.1.0: wanted: {"node":">=14"} (current: {"node":"12.22.1","npm":"6.14.12"})
+736 warn notsup Not compatible with your version of node/npm: @fastify/busboy@2.1.0
+737 verbose notsup Not compatible with your version of node/npm: @fastify/busboy@2.1.0
+737 verbose notsup Required: {"node":">=14"}
+737 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+738 warn notsup Unsupported engine for undici@5.27.2: wanted: {"node":">=14.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+739 warn notsup Not compatible with your version of node/npm: undici@5.27.2
+740 verbose notsup Not compatible with your version of node/npm: undici@5.27.2
+740 verbose notsup Required: {"node":">=14.0"}
+740 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+741 warn notsup Unsupported engine for @sapphire/snowflake@3.5.1: wanted: {"node":">=v14.0.0","npm":">=7.0.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+742 warn notsup Not compatible with your version of node/npm: @sapphire/snowflake@3.5.1
+743 verbose notsup Not compatible with your version of node/npm: @sapphire/snowflake@3.5.1
+743 verbose notsup Required: {"node":">=v14.0.0","npm":">=7.0.0"}
+743 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+744 warn notsup Unsupported engine for @discordjs/rest@2.2.0: wanted: {"node":">=16.11.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+745 warn notsup Not compatible with your version of node/npm: @discordjs/rest@2.2.0
+746 verbose notsup Not compatible with your version of node/npm: @discordjs/rest@2.2.0
+746 verbose notsup Required: {"node":">=16.11.0"}
+746 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+747 warn notsup Unsupported engine for @discordjs/formatters@0.3.3: wanted: {"node":">=16.11.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+748 warn notsup Not compatible with your version of node/npm: @discordjs/formatters@0.3.3
+749 verbose notsup Not compatible with your version of node/npm: @discordjs/formatters@0.3.3
+749 verbose notsup Required: {"node":">=16.11.0"}
+749 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+750 warn notsup Unsupported engine for @discordjs/builders@1.7.0: wanted: {"node":">=16.11.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+751 warn notsup Not compatible with your version of node/npm: @discordjs/builders@1.7.0
+752 verbose notsup Not compatible with your version of node/npm: @discordjs/builders@1.7.0
+752 verbose notsup Required: {"node":">=16.11.0"}
+752 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+753 warn notsup Unsupported engine for @discordjs/ws@1.0.2: wanted: {"node":">=16.11.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+754 warn notsup Not compatible with your version of node/npm: @discordjs/ws@1.0.2
+755 verbose notsup Not compatible with your version of node/npm: @discordjs/ws@1.0.2
+755 verbose notsup Required: {"node":">=16.11.0"}
+755 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+756 warn notsup Unsupported engine for @discordjs/util@1.0.2: wanted: {"node":">=16.11.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+757 warn notsup Not compatible with your version of node/npm: @discordjs/util@1.0.2
+758 verbose notsup Not compatible with your version of node/npm: @discordjs/util@1.0.2
+758 verbose notsup Required: {"node":">=16.11.0"}
+758 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+759 warn notsup Unsupported engine for @sapphire/shapeshift@3.9.5: wanted: {"node":">=v18"} (current: {"node":"12.22.1","npm":"6.14.12"})
+760 warn notsup Not compatible with your version of node/npm: @sapphire/shapeshift@3.9.5
+761 verbose notsup Not compatible with your version of node/npm: @sapphire/shapeshift@3.9.5
+761 verbose notsup Required: {"node":">=v18"}
+761 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+762 warn notsup Unsupported engine for @discordjs/collection@2.0.0: wanted: {"node":">=18"} (current: {"node":"12.22.1","npm":"6.14.12"})
+763 warn notsup Not compatible with your version of node/npm: @discordjs/collection@2.0.0
+764 verbose notsup Not compatible with your version of node/npm: @discordjs/collection@2.0.0
+764 verbose notsup Required: {"node":">=18"}
+764 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+765 warn notsup Unsupported engine for @vladfrangu/async_event_emitter@2.2.4: wanted: {"node":">=v14.0.0","npm":">=7.0.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+766 warn notsup Not compatible with your version of node/npm: @vladfrangu/async_event_emitter@2.2.4
+767 verbose notsup Not compatible with your version of node/npm: @vladfrangu/async_event_emitter@2.2.4
+767 verbose notsup Required: {"node":">=v14.0.0","npm":">=7.0.0"}
+767 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+768 warn notsup Unsupported engine for @discordjs/collection@2.0.0: wanted: {"node":">=18"} (current: {"node":"12.22.1","npm":"6.14.12"})
+769 warn notsup Not compatible with your version of node/npm: @discordjs/collection@2.0.0
+770 verbose notsup Not compatible with your version of node/npm: @discordjs/collection@2.0.0
+770 verbose notsup Required: {"node":">=18"}
+770 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+771 warn notsup Unsupported engine for @discordjs/rest@2.2.0: wanted: {"node":">=16.11.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+772 warn notsup Not compatible with your version of node/npm: @discordjs/rest@2.2.0
+773 verbose notsup Not compatible with your version of node/npm: @discordjs/rest@2.2.0
+773 verbose notsup Required: {"node":">=16.11.0"}
+773 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+774 warn notsup Unsupported engine for undici@5.27.2: wanted: {"node":">=14.0"} (current: {"node":"12.22.1","npm":"6.14.12"})
+775 warn notsup Not compatible with your version of node/npm: undici@5.27.2
+776 verbose notsup Not compatible with your version of node/npm: undici@5.27.2
+776 verbose notsup Required: {"node":">=14.0"}
+776 verbose notsup Actual:   {"npm":"6.14.12","node":"12.22.1"}
+777 warn surviria@1.0.0 No description
+778 warn surviria@1.0.0 No repository field.
+779 verbose stack Error: EACCES: permission denied, access '/home/container/node_modules/@discordjs/builders/node_modules/discord-api-types'
+780 verbose cwd /home/container
+781 verbose Linux 5.15.0-91-generic
+782 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--production"
+783 verbose node v12.22.1
+784 verbose npm  v6.14.12
+785 error code EACCES
+786 error syscall access
+787 error path /home/container/node_modules/@discordjs/builders/node_modules/discord-api-types
+788 error errno -13
+789 error Error: EACCES: permission denied, access '/home/container/node_modules/@discordjs/builders/node_modules/discord-api-types'
+789 error  [Error: EACCES: permission denied, access '/home/container/node_modules/@discordjs/builders/node_modules/discord-api-types'] {
+789 error   errno: -13,
+789 error   code: 'EACCES',
+789 error   syscall: 'access',
+789 error   path: '/home/container/node_modules/@discordjs/builders/node_modules/discord-api-types'
+789 error }
+790 error The operation was rejected by your operating system.
+790 error It is likely you do not have the permissions to access this file as the current user
+790 error
+790 error If you believe this might be a permissions issue, please double-check the
+790 error permissions of the file and its containing directories, or try running
+790 error the command again as root/Administrator.
+791 verbose exit [ -13, true ]

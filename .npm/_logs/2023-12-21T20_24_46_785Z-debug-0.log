@@ -1,0 +1,439 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.2.5
+2 info using node@v20.10.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 warn config production Use `--omit=dev` instead.
+8 timing config:load:cli Completed in 3ms
+9 timing config:load:env Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/home/container/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 7ms
+17 timing npm:load:configload Completed in 7ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install
+22 verbose argv "install" "--production"
+23 timing npm:load:setTitle Completed in 0ms
+24 timing npm:load:display Completed in 2ms
+25 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2023-12-21T20_24_46_785Z-
+26 verbose logfile /home/container/.npm/_logs/2023-12-21T20_24_46_785Z-debug-0.log
+27 timing npm:load:logFile Completed in 9ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 37ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+34 timing idealTree:init Completed in 81ms
+35 warn old lockfile
+35 warn old lockfile The package-lock.json file was created with an old version of npm,
+35 warn old lockfile so supplemental metadata must be fetched from the registry.
+35 warn old lockfile
+35 warn old lockfile This is a one-time fix-up, please be patient...
+35 warn old lockfile
+36 silly inflate node_modules/@discordjs/builders
+37 silly inflate node_modules/@discordjs/builders/node_modules/discord-api-types
+38 silly inflate node_modules/@discordjs/collection
+39 silly inflate node_modules/@discordjs/formatters
+40 http fetch GET 200 https://registry.npmjs.org/npm 266ms
+41 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fformatters 204ms (cache revalidated)
+42 silly inflate node_modules/@discordjs/formatters/node_modules/discord-api-types
+43 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fbuilders 245ms (cache revalidated)
+44 silly inflate node_modules/@discordjs/rest
+45 http fetch GET 200 https://registry.npmjs.org/discord-api-types 810ms (cache revalidated)
+46 silly inflate node_modules/@discordjs/util
+47 http fetch GET 200 https://registry.npmjs.org/@discordjs%2futil 104ms (cache revalidated)
+48 silly inflate node_modules/@discordjs/ws
+49 http fetch GET 200 https://registry.npmjs.org/discord-api-types 746ms (cache revalidated)
+50 silly inflate node_modules/@discordjs/ws/node_modules/@discordjs/collection
+51 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fws 102ms (cache revalidated)
+52 silly inflate node_modules/@discordjs/ws/node_modules/@discordjs/rest
+53 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fcollection 1656ms (cache revalidated)
+54 silly inflate node_modules/@discordjs/ws/node_modules/discord-api-types
+55 silly inflate node_modules/@discordjs/ws/node_modules/undici
+56 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 1433ms (cache revalidated)
+57 silly inflate node_modules/@fastify/busboy
+58 http fetch GET 200 https://registry.npmjs.org/@fastify%2fbusboy 82ms (cache revalidated)
+59 silly inflate node_modules/@sapphire/async-queue
+60 http fetch GET 200 https://registry.npmjs.org/undici 260ms (cache revalidated)
+61 silly inflate node_modules/@sapphire/shapeshift
+62 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fcollection 1487ms (cache revalidated)
+63 silly inflate node_modules/@sapphire/snowflake
+64 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 1486ms (cache revalidated)
+65 silly inflate node_modules/@tokenizer/token
+66 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fshapeshift 1076ms (cache revalidated)
+67 silly inflate node_modules/@types/node
+68 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 72ms (cache revalidated)
+69 silly inflate node_modules/@types/ws
+70 http fetch GET 200 https://registry.npmjs.org/@types%2fws 50ms (cache revalidated)
+71 silly inflate node_modules/@vladfrangu/async_event_emitter
+72 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fasync-queue 1495ms (cache revalidated)
+73 silly inflate node_modules/accepts
+74 http fetch GET 200 https://registry.npmjs.org/accepts 37ms (cache revalidated)
+75 silly inflate node_modules/array-flatten
+76 http fetch GET 200 https://registry.npmjs.org/array-flatten 36ms (cache revalidated)
+77 silly inflate node_modules/asynckit
+78 http fetch GET 200 https://registry.npmjs.org/asynckit 45ms (cache revalidated)
+79 silly inflate node_modules/axios
+80 http fetch GET 200 https://registry.npmjs.org/axios 38ms (cache revalidated)
+81 silly inflate node_modules/bignumber.js
+82 http fetch GET 200 https://registry.npmjs.org/bignumber.js 32ms (cache revalidated)
+83 silly inflate node_modules/body-parser
+84 http fetch GET 200 https://registry.npmjs.org/body-parser 34ms (cache revalidated)
+85 silly inflate node_modules/bytes
+86 http fetch GET 200 https://registry.npmjs.org/bytes 39ms (cache revalidated)
+87 silly inflate node_modules/call-bind
+88 http fetch GET 200 https://registry.npmjs.org/call-bind 37ms (cache revalidated)
+89 silly inflate node_modules/combined-stream
+90 http fetch GET 200 https://registry.npmjs.org/combined-stream 32ms (cache revalidated)
+91 silly inflate node_modules/content-disposition
+92 http fetch GET 200 https://registry.npmjs.org/content-disposition 42ms (cache revalidated)
+93 silly inflate node_modules/content-type
+94 http fetch GET 200 https://registry.npmjs.org/content-type 38ms (cache revalidated)
+95 silly inflate node_modules/cookie
+96 http fetch GET 200 https://registry.npmjs.org/cookie 39ms (cache revalidated)
+97 silly inflate node_modules/cookie-signature
+98 http fetch GET 200 https://registry.npmjs.org/cookie-signature 34ms (cache revalidated)
+99 silly inflate node_modules/core-util-is
+100 http fetch GET 200 https://registry.npmjs.org/core-util-is 36ms (cache revalidated)
+101 silly inflate node_modules/debug
+102 http fetch GET 200 https://registry.npmjs.org/debug 33ms (cache revalidated)
+103 silly inflate node_modules/define-data-property
+104 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fsnowflake 1440ms (cache revalidated)
+105 silly inflate node_modules/delayed-stream
+106 http fetch GET 200 https://registry.npmjs.org/define-data-property 37ms (cache revalidated)
+107 silly inflate node_modules/depd
+108 http fetch GET 200 https://registry.npmjs.org/delayed-stream 44ms (cache revalidated)
+109 silly inflate node_modules/destroy
+110 http fetch GET 200 https://registry.npmjs.org/depd 42ms (cache revalidated)
+111 silly inflate node_modules/discord-api-types
+112 silly inflate node_modules/discord.js
+113 http fetch GET 200 https://registry.npmjs.org/destroy 37ms (cache revalidated)
+114 silly inflate node_modules/discord.js/node_modules/@discordjs/rest
+115 silly inflate node_modules/discord.js/node_modules/@discordjs/rest/node_modules/@discordjs/collection
+116 silly inflate node_modules/discord.js/node_modules/@sapphire/snowflake
+117 silly inflate node_modules/discord.js/node_modules/discord-api-types
+118 silly inflate node_modules/discord.js/node_modules/undici
+119 silly inflate node_modules/ee-first
+120 http fetch GET 200 https://registry.npmjs.org/ee-first 34ms (cache revalidated)
+121 silly inflate node_modules/encodeurl
+122 http fetch GET 200 https://registry.npmjs.org/encodeurl 31ms (cache revalidated)
+123 silly inflate node_modules/escape-html
+124 http fetch GET 200 https://registry.npmjs.org/@tokenizer%2ftoken 1521ms (cache revalidated)
+125 silly inflate node_modules/etag
+126 http fetch GET 200 https://registry.npmjs.org/escape-html 36ms (cache revalidated)
+127 silly inflate node_modules/express
+128 http fetch GET 200 https://registry.npmjs.org/etag 35ms (cache revalidated)
+129 silly inflate node_modules/fast-deep-equal
+130 http fetch GET 200 https://registry.npmjs.org/express 49ms (cache revalidated)
+131 silly inflate node_modules/file-type
+132 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 51ms (cache revalidated)
+133 silly inflate node_modules/finalhandler
+134 http fetch GET 200 https://registry.npmjs.org/file-type 36ms (cache revalidated)
+135 silly inflate node_modules/follow-redirects
+136 http fetch GET 200 https://registry.npmjs.org/finalhandler 37ms (cache revalidated)
+137 silly inflate node_modules/form-data
+138 http fetch GET 200 https://registry.npmjs.org/form-data 35ms (cache revalidated)
+139 silly inflate node_modules/forwarded
+140 http fetch GET 200 https://registry.npmjs.org/follow-redirects 38ms (cache revalidated)
+141 silly inflate node_modules/fresh
+142 http fetch GET 200 https://registry.npmjs.org/fresh 39ms (cache revalidated)
+143 silly inflate node_modules/function-bind
+144 http fetch GET 200 https://registry.npmjs.org/forwarded 43ms (cache revalidated)
+145 silly inflate node_modules/get-intrinsic
+146 http fetch GET 200 https://registry.npmjs.org/function-bind 34ms (cache revalidated)
+147 silly inflate node_modules/google-spreadsheet
+148 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 42ms (cache revalidated)
+149 silly inflate node_modules/google-spreadsheet/node_modules/axios
+150 silly inflate node_modules/gopd
+151 http fetch GET 200 https://registry.npmjs.org/google-spreadsheet 29ms (cache revalidated)
+152 silly inflate node_modules/has-property-descriptors
+153 http fetch GET 200 https://registry.npmjs.org/gopd 31ms (cache revalidated)
+154 silly inflate node_modules/has-proto
+155 http fetch GET 200 https://registry.npmjs.org/has-property-descriptors 33ms (cache revalidated)
+156 silly inflate node_modules/has-symbols
+157 http fetch GET 200 https://registry.npmjs.org/has-proto 29ms (cache revalidated)
+158 silly inflate node_modules/hasown
+159 http fetch GET 200 https://registry.npmjs.org/has-symbols 32ms (cache revalidated)
+160 silly inflate node_modules/http-errors
+161 http fetch GET 200 https://registry.npmjs.org/hasown 29ms (cache revalidated)
+162 silly inflate node_modules/iconv-lite
+163 http fetch GET 200 https://registry.npmjs.org/http-errors 34ms (cache revalidated)
+164 silly inflate node_modules/ieee754
+165 http fetch GET 200 https://registry.npmjs.org/iconv-lite 34ms (cache revalidated)
+166 silly inflate node_modules/inherits
+167 http fetch GET 200 https://registry.npmjs.org/ieee754 34ms (cache revalidated)
+168 silly inflate node_modules/ipaddr.js
+169 http fetch GET 200 https://registry.npmjs.org/inherits 36ms (cache revalidated)
+170 silly inflate node_modules/isarray
+171 http fetch GET 200 https://registry.npmjs.org/ipaddr.js 38ms (cache revalidated)
+172 silly inflate node_modules/lodash
+173 http fetch GET 200 https://registry.npmjs.org/isarray 34ms (cache revalidated)
+174 silly inflate node_modules/lodash.snakecase
+175 http fetch GET 200 https://registry.npmjs.org/lodash 31ms (cache revalidated)
+176 silly inflate node_modules/magic-bytes.js
+177 http fetch GET 200 https://registry.npmjs.org/lodash.snakecase 45ms (cache revalidated)
+178 silly inflate node_modules/media-typer
+179 http fetch GET 200 https://registry.npmjs.org/media-typer 33ms (cache revalidated)
+180 silly inflate node_modules/merge-descriptors
+181 http fetch GET 200 https://registry.npmjs.org/@vladfrangu%2fasync_event_emitter 1469ms (cache revalidated)
+182 silly inflate node_modules/methods
+183 http fetch GET 200 https://registry.npmjs.org/merge-descriptors 28ms (cache revalidated)
+184 silly inflate node_modules/mime
+185 http fetch GET 200 https://registry.npmjs.org/discord.js 706ms (cache revalidated)
+186 silly inflate node_modules/mime-db
+187 http fetch GET 200 https://registry.npmjs.org/methods 65ms (cache revalidated)
+188 silly inflate node_modules/mime-types
+189 http fetch GET 200 https://registry.npmjs.org/mime 61ms (cache revalidated)
+190 silly inflate node_modules/ms
+191 http fetch GET 200 https://registry.npmjs.org/mime-db 37ms (cache revalidated)
+192 silly inflate node_modules/mysql
+193 http fetch GET 200 https://registry.npmjs.org/ms 34ms (cache revalidated)
+194 silly inflate node_modules/mysql/node_modules/readable-stream
+195 http fetch GET 200 https://registry.npmjs.org/mime-types 42ms (cache revalidated)
+196 silly inflate node_modules/mysql/node_modules/safe-buffer
+197 http fetch GET 200 https://registry.npmjs.org/mysql 38ms (cache revalidated)
+198 silly inflate node_modules/mysql/node_modules/string_decoder
+199 http fetch GET 200 https://registry.npmjs.org/readable-stream 37ms (cache revalidated)
+200 silly inflate node_modules/negotiator
+201 http fetch GET 200 https://registry.npmjs.org/safe-buffer 45ms (cache revalidated)
+202 silly inflate node_modules/object-inspect
+203 http fetch GET 200 https://registry.npmjs.org/string_decoder 31ms (cache revalidated)
+204 silly inflate node_modules/on-finished
+205 http fetch GET 200 https://registry.npmjs.org/object-inspect 32ms (cache revalidated)
+206 silly inflate node_modules/parseurl
+207 http fetch GET 200 https://registry.npmjs.org/negotiator 48ms (cache revalidated)
+208 silly inflate node_modules/path-to-regexp
+209 http fetch GET 200 https://registry.npmjs.org/parseurl 39ms (cache revalidated)
+210 silly inflate node_modules/peek-readable
+211 http fetch GET 200 https://registry.npmjs.org/on-finished 56ms (cache revalidated)
+212 silly inflate node_modules/process-nextick-args
+213 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 36ms (cache revalidated)
+214 silly inflate node_modules/proxy-addr
+215 http fetch GET 200 https://registry.npmjs.org/proxy-addr 34ms (cache revalidated)
+216 silly inflate node_modules/proxy-from-env
+217 http fetch GET 200 https://registry.npmjs.org/peek-readable 42ms (cache revalidated)
+218 silly inflate node_modules/qs
+219 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 40ms (cache revalidated)
+220 silly inflate node_modules/range-parser
+221 http fetch GET 200 https://registry.npmjs.org/qs 38ms (cache revalidated)
+222 silly inflate node_modules/raw-body
+223 http fetch GET 200 https://registry.npmjs.org/range-parser 46ms (cache revalidated)
+224 silly inflate node_modules/readable-stream
+225 silly inflate node_modules/readable-web-to-node-stream
+226 http fetch GET 200 https://registry.npmjs.org/raw-body 36ms (cache revalidated)
+227 silly inflate node_modules/safe-buffer
+228 silly inflate node_modules/safer-buffer
+229 http fetch GET 200 https://registry.npmjs.org/safer-buffer 31ms (cache revalidated)
+230 silly inflate node_modules/send
+231 http fetch GET 200 https://registry.npmjs.org/send 33ms (cache revalidated)
+232 silly inflate node_modules/send/node_modules/ms
+233 silly inflate node_modules/serve-static
+234 http fetch GET 200 https://registry.npmjs.org/serve-static 39ms (cache revalidated)
+235 silly inflate node_modules/set-function-length
+236 http fetch GET 200 https://registry.npmjs.org/set-function-length 34ms (cache revalidated)
+237 silly inflate node_modules/setprototypeof
+238 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 223ms (cache revalidated)
+239 silly inflate node_modules/side-channel
+240 http fetch GET 200 https://registry.npmjs.org/side-channel 41ms (cache revalidated)
+241 silly inflate node_modules/sqlstring
+242 http fetch GET 200 https://registry.npmjs.org/setprototypeof 43ms (cache revalidated)
+243 silly inflate node_modules/statuses
+244 http fetch GET 200 https://registry.npmjs.org/sqlstring 43ms (cache revalidated)
+245 silly inflate node_modules/string_decoder
+246 silly inflate node_modules/strtok3
+247 http fetch GET 200 https://registry.npmjs.org/statuses 44ms (cache revalidated)
+248 silly inflate node_modules/toidentifier
+249 http fetch GET 200 https://registry.npmjs.org/strtok3 35ms (cache revalidated)
+250 silly inflate node_modules/token-types
+251 http fetch GET 200 https://registry.npmjs.org/toidentifier 38ms (cache revalidated)
+252 silly inflate node_modules/ts-mixer
+253 http fetch GET 200 https://registry.npmjs.org/magic-bytes.js 723ms (cache revalidated)
+254 silly inflate node_modules/tslib
+255 http fetch GET 200 https://registry.npmjs.org/token-types 37ms (cache revalidated)
+256 silly inflate node_modules/type-is
+257 http fetch GET 200 https://registry.npmjs.org/type-is 38ms (cache revalidated)
+258 silly inflate node_modules/undici
+259 silly inflate node_modules/undici-types
+260 http fetch GET 200 https://registry.npmjs.org/tslib 49ms (cache revalidated)
+261 silly inflate node_modules/unpipe
+262 http fetch GET 200 https://registry.npmjs.org/undici-types 41ms (cache revalidated)
+263 silly inflate node_modules/util-deprecate
+264 http fetch GET 200 https://registry.npmjs.org/unpipe 38ms (cache revalidated)
+265 silly inflate node_modules/utils-merge
+266 http fetch GET 200 https://registry.npmjs.org/util-deprecate 35ms (cache revalidated)
+267 silly inflate node_modules/vary
+268 http fetch GET 200 https://registry.npmjs.org/utils-merge 35ms (cache revalidated)
+269 silly inflate node_modules/ws
+270 http fetch GET 200 https://registry.npmjs.org/vary 34ms (cache revalidated)
+271 http fetch GET 200 https://registry.npmjs.org/readable-web-to-node-stream 738ms (cache revalidated)
+272 http fetch GET 200 https://registry.npmjs.org/ts-mixer 737ms (cache revalidated)
+273 http fetch GET 200 https://registry.npmjs.org/ws 736ms (cache revalidated)
+274 timing idealTree:inflate Completed in 6160ms
+275 timing idealTree:userRequests Completed in 1ms
+276 silly idealTree buildDeps
+277 timing idealTree:#root Completed in 1ms
+278 timing idealTree:buildDeps Completed in 3ms
+279 timing idealTree:fixDepFlags Completed in 0ms
+280 timing idealTree Completed in 6249ms
+281 timing reify:loadTrees Completed in 6251ms
+282 timing reify:diffTrees Completed in 6ms
+283 silly reify moves {}
+284 timing reify:retireShallow Completed in 2ms
+285 timing reify:createSparse Completed in 0ms
+286 timing reify:trashOmits Completed in 1ms
+287 timing reify:loadBundles Completed in 0ms
+288 silly audit bulk request {
+288 silly audit   '@discordjs/builders': [ '1.7.0' ],
+288 silly audit   'discord-api-types': [ '0.37.61', '0.37.66' ],
+288 silly audit   '@discordjs/collection': [ '1.5.3', '2.0.0' ],
+288 silly audit   '@discordjs/formatters': [ '0.3.3' ],
+288 silly audit   '@discordjs/rest': [ '1.1.0', '2.2.0' ],
+288 silly audit   '@discordjs/util': [ '1.0.2' ],
+288 silly audit   '@discordjs/ws': [ '1.0.2' ],
+288 silly audit   undici: [ '5.27.2', '5.28.2' ],
+288 silly audit   '@fastify/busboy': [ '2.1.0' ],
+288 silly audit   '@sapphire/async-queue': [ '1.5.1' ],
+288 silly audit   '@sapphire/shapeshift': [ '3.9.5' ],
+288 silly audit   '@sapphire/snowflake': [ '3.5.2', '3.5.1' ],
+288 silly audit   '@tokenizer/token': [ '0.3.0' ],
+288 silly audit   '@types/node': [ '20.10.5' ],
+288 silly audit   '@types/ws': [ '8.5.9' ],
+288 silly audit   '@vladfrangu/async_event_emitter': [ '2.2.4' ],
+288 silly audit   accepts: [ '1.3.8' ],
+288 silly audit   'array-flatten': [ '1.1.1' ],
+288 silly audit   asynckit: [ '0.4.0' ],
+288 silly audit   axios: [ '0.27.2', '1.6.2' ],
+288 silly audit   'bignumber.js': [ '9.0.0' ],
+288 silly audit   'body-parser': [ '1.20.0' ],
+288 silly audit   bytes: [ '3.1.2' ],
+288 silly audit   'call-bind': [ '1.0.5' ],
+288 silly audit   'combined-stream': [ '1.0.8' ],
+288 silly audit   'content-disposition': [ '0.5.4' ],
+288 silly audit   'content-type': [ '1.0.5' ],
+288 silly audit   cookie: [ '0.5.0' ],
+288 silly audit   'cookie-signature': [ '1.0.6' ],
+288 silly audit   'core-util-is': [ '1.0.3' ],
+288 silly audit   debug: [ '2.6.9' ],
+288 silly audit   'define-data-property': [ '1.1.1' ],
+288 silly audit   'delayed-stream': [ '1.0.0' ],
+288 silly audit   depd: [ '2.0.0' ],
+288 silly audit   destroy: [ '1.2.0' ],
+288 silly audit   'discord.js': [ '14.14.1' ],
+288 silly audit   'ee-first': [ '1.1.1' ],
+288 silly audit   encodeurl: [ '1.0.2' ],
+288 silly audit   'escape-html': [ '1.0.3' ],
+288 silly audit   etag: [ '1.8.1' ],
+288 silly audit   express: [ '4.18.1' ],
+288 silly audit   'fast-deep-equal': [ '3.1.3' ],
+288 silly audit   'file-type': [ '17.1.6' ],
+288 silly audit   finalhandler: [ '1.2.0' ],
+288 silly audit   'follow-redirects': [ '1.15.3' ],
+288 silly audit   'form-data': [ '4.0.0' ],
+288 silly audit   forwarded: [ '0.2.0' ],
+288 silly audit   fresh: [ '0.5.2' ],
+288 silly audit   'function-bind': [ '1.1.2' ],
+288 silly audit   'get-intrinsic': [ '1.2.2' ],
+288 silly audit   'google-spreadsheet': [ '4.1.1' ],
+288 silly audit   gopd: [ '1.0.1' ],
+288 silly audit   'has-property-descriptors': [ '1.0.1' ],
+288 silly audit   'has-proto': [ '1.0.1' ],
+288 silly audit   'has-symbols': [ '1.0.3' ],
+288 silly audit   hasown: [ '2.0.0' ],
+288 silly audit   'http-errors': [ '2.0.0' ],
+288 silly audit   'iconv-lite': [ '0.4.24' ],
+288 silly audit   ieee754: [ '1.2.1' ],
+288 silly audit   inherits: [ '2.0.4' ],
+288 silly audit   'ipaddr.js': [ '1.9.1' ],
+288 silly audit   isarray: [ '1.0.0' ],
+288 silly audit   lodash: [ '4.17.21' ],
+288 silly audit   'lodash.snakecase': [ '4.1.1' ],
+288 silly audit   'magic-bytes.js': [ '1.7.0' ],
+288 silly audit   'media-typer': [ '0.3.0' ],
+288 silly audit   'merge-descriptors': [ '1.0.1' ],
+288 silly audit   methods: [ '1.1.2' ],
+288 silly audit   mime: [ '1.6.0' ],
+288 silly audit   'mime-db': [ '1.52.0' ],
+288 silly audit   'mime-types': [ '2.1.35' ],
+288 silly audit   ms: [ '2.0.0', '2.1.3' ],
+288 silly audit   mysql: [ '2.18.1' ],
+288 silly audit   'readable-stream': [ '2.3.7', '3.6.2' ],
+288 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+288 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+288 silly audit   negotiator: [ '0.6.3' ],
+288 silly audit   'object-inspect': [ '1.13.1' ],
+288 silly audit   'on-finished': [ '2.4.1' ],
+288 silly audit   parseurl: [ '1.3.3' ],
+288 silly audit   'path-to-regexp': [ '0.1.7' ],
+288 silly audit   'peek-readable': [ '5.0.0' ],
+288 silly audit   'process-nextick-args': [ '2.0.1' ],
+288 silly audit   'proxy-addr': [ '2.0.7' ],
+288 silly audit   'proxy-from-env': [ '1.1.0' ],
+288 silly audit   qs: [ '6.10.3' ],
+288 silly audit   'range-parser': [ '1.2.1' ],
+288 silly audit   'raw-body': [ '2.5.1' ],
+288 silly audit   'readable-web-to-node-stream': [ '3.0.2' ],
+288 silly audit   'safer-buffer': [ '2.1.2' ],
+288 silly audit   send: [ '0.18.0' ],
+288 silly audit   'serve-static': [ '1.15.0' ],
+288 silly audit   'set-function-length': [ '1.1.1' ],
+288 silly audit   setprototypeof: [ '1.2.0' ],
+288 silly audit   'side-channel': [ '1.0.4' ],
+288 silly audit   sqlstring: [ '2.3.1' ],
+288 silly audit   statuses: [ '2.0.1' ],
+288 silly audit   strtok3: [ '7.0.0' ],
+288 silly audit   toidentifier: [ '1.0.1' ],
+288 silly audit   'token-types': [ '5.0.1' ],
+288 silly audit   'ts-mixer': [ '6.0.3' ],
+288 silly audit   tslib: [ '2.6.2' ],
+288 silly audit   'type-is': [ '1.6.18' ],
+288 silly audit   'undici-types': [ '5.26.5' ],
+288 silly audit   unpipe: [ '1.0.0' ],
+288 silly audit   'util-deprecate': [ '1.0.2' ],
+288 silly audit   'utils-merge': [ '1.0.1' ],
+288 silly audit   vary: [ '1.1.2' ],
+288 silly audit   ws: [ '8.14.2' ]
+288 silly audit }
+289 timing reify:unpack Completed in 0ms
+290 timing reify:unretire Completed in 0ms
+291 timing build:queue Completed in 0ms
+292 timing build:deps Completed in 0ms
+293 timing build Completed in 0ms
+294 timing reify:build Completed in 0ms
+295 timing reify:trash Completed in 0ms
+296 timing reify:save Completed in 71ms
+297 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 567ms
+298 timing auditReport:getReport Completed in 577ms
+299 silly audit report {
+299 silly audit report   axios: [
+299 silly audit report     {
+299 silly audit report       id: 1094889,
+299 silly audit report       url: 'https://github.com/advisories/GHSA-wf5p-g6vw-rhxx',
+299 silly audit report       title: 'Axios Cross-Site Request Forgery Vulnerability',
+299 silly audit report       severity: 'moderate',
+299 silly audit report       vulnerable_versions: '>=0.8.1 <1.6.0',
+299 silly audit report       cwe: [Array],
+299 silly audit report       cvss: [Object]
+299 silly audit report     }
+299 silly audit report   ]
+299 silly audit report }
+300 timing metavuln:packument:axios Completed in 1ms
+301 timing metavuln:cache:get:security-advisory:axios:Jphyrph0xSBoV7rAKQ5sxe+Zizq65vm72MJltviDtKidjsZwX/gC36j+hz03tZ86vHMEkACxqA4FcmoDJt5vmg== Completed in 1ms
+302 timing metavuln:load:security-advisory:axios:1094889 Completed in 8ms
+303 timing metavuln:cache:put:security-advisory:axios:Jphyrph0xSBoV7rAKQ5sxe+Zizq65vm72MJltviDtKidjsZwX/gC36j+hz03tZ86vHMEkACxqA4FcmoDJt5vmg== Completed in 8ms
+304 timing metavuln:calculate:security-advisory:axios:1094889 Completed in 19ms
+305 timing auditReport:init Completed in 27ms
+306 timing reify:audit Completed in 605ms
+307 timing reify Completed in 6937ms
+308 timing command:install Completed in 6956ms
+309 verbose exit 0
+310 timing npm Completed in 7156ms
+311 info ok
