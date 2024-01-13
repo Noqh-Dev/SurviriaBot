@@ -195,7 +195,7 @@ client.on("interactionCreate", async interaction => {
                         
                         const date = Date.now()
 
-                        fetch('https://sheetdb.io/api/v1/75c0dvnrsoaz8', {
+                        fetch(`${config.bot.api_key}`, {
                             method: 'POST',
                             headers: {
                                 'Accept': 'application/json',
@@ -279,7 +279,7 @@ client.on("interactionCreate", async interaction => {
 
                                 if (!member_discord.kickable) return await interaction.reply({ content: "Je ne peux pas retirer ce joueur, ses rôles sont supérieurs aux miens.", ephemeral: true })
 
-                                await fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/discordid/${discord_id}`, {
+                                await fetch(`${config.bot.api_key}/discordid/${discord_id}`, {
                                     method: 'DELETE',
                                     headers: {
                                         'Accept': 'application/json',
@@ -301,14 +301,14 @@ client.on("interactionCreate", async interaction => {
 
                                 await interaction.reply(`Joueur supprimé avec succes`)
                             } else if (mc != null) {
-                                const response = await fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/search?&pseudo=${mc}`)
+                                const response = await fetch(`${config.bot.api_key}/search?&pseudo=${mc}`)
                                 const data = await response.json()
                                 const member_mc = data[0].discordid
                                 const m = await interaction.guild.members.fetch(member_mc)
 
                                 m.kick()
 
-                                await fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/pseudo/${mc}`, {
+                                await fetch(`${config.bot.api_key}/pseudo/${mc}`, {
                                     method: 'DELETE',
                                     headers: {
                                         'Accept': 'application/json',
@@ -339,7 +339,7 @@ client.on("interactionCreate", async interaction => {
                                 if (!member_discord.kickable) return await interaction.reply({ content: "Je ne peux pas retirer ce joueur, ses rôles sont supérieurs aux miens.", ephemeral: true })
                                 
 
-                                await fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/discordid/${discord_id}`, {
+                                await fetch(`${config.bot.api_key}/discordid/${discord_id}`, {
                                     method: 'DELETE',
                                     headers: {
                                         'Accept': 'application/json',
@@ -360,7 +360,7 @@ client.on("interactionCreate", async interaction => {
 
                                 interaction.reply("Le rôle du joueur à été retiré")
                             } else if (mc != null) {
-                                const response = await fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/search?&pseudo=${mc}`)
+                                const response = await fetch(`${config.bot.api_key}/search?&pseudo=${mc}`)
                                 const data = await response.json()
                                 const member_mc = data[0].discordid
                                 const m = await interaction.guild.members.fetch(member_mc)
@@ -368,7 +368,7 @@ client.on("interactionCreate", async interaction => {
                                 m.roles.remove(config.roles.wl_srv_com_id);
 
 
-                                await fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/pseudo/${mc}`, {
+                                await fetch(`${config.bot.api_key}/pseudo/${mc}`, {
                                     method: 'DELETE',
                                     headers: {
                                         'Accept': 'application/json',
@@ -784,7 +784,7 @@ client.on("interactionCreate", async interaction => {
             if (!value) return;
 
             if (value === "ami") {
-                fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/discordid/${interaction.channel.topic}`, {
+                fetch(`${config.bot.api_key}/discordid/${interaction.channel.topic}`, {
                     method: 'PATCH',
                     headers: {
                         'Accept': 'application/json',
@@ -802,7 +802,7 @@ client.on("interactionCreate", async interaction => {
 
                 interaction.reply({ content: "> Vous venez de sélectionner 'Ami'", ephemeral: true })
             } else if (value === "web") {
-                fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/discordid/${interaction.channel.topic}`, {
+                fetch(`${config.bot.api_key}/discordid/${interaction.channel.topic}`, {
                     method: 'PATCH',
                     headers: {
                         'Accept': 'application/json',
@@ -818,7 +818,7 @@ client.on("interactionCreate", async interaction => {
                     .then((data) => console.log(data))
                 interaction.reply({ content: "> Vous venez de sélectionner 'Web'", ephemeral: true })
             } else if (value === "discord") {
-                fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/discordid/${interaction.channel.topic}`, {
+                fetch(`${config.bot.api_key}/discordid/${interaction.channel.topic}`, {
                     method: 'PATCH',
                     headers: {
                         'Accept': 'application/json',
@@ -834,7 +834,7 @@ client.on("interactionCreate", async interaction => {
                     .then((data) => console.log(data))
                 interaction.reply({ content: "> Vous venez de sélectionner 'Discord'", ephemeral: true })
             } else if (value === "forum") {
-                fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/discordid/${interaction.channel.topic}`, {
+                fetch(`${config.bot.api_key}/discordid/${interaction.channel.topic}`, {
                     method: 'PATCH',
                     headers: {
                         'Accept': 'application/json',
@@ -850,7 +850,7 @@ client.on("interactionCreate", async interaction => {
                     .then((data) => console.log(data))
                 interaction.reply({ content: "> Vous venez de sélectionner 'Forum'", ephemeral: true })
             } else if (value === "autre") {
-                fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/discordid/${interaction.channel.topic}`, {
+                fetch(`${config.bot.api_key}/discordid/${interaction.channel.topic}`, {
                     method: 'PATCH',
                     headers: {
                         'Accept': 'application/json',
@@ -882,7 +882,7 @@ client.on("guildMemberAdd", async (member) => {
         channel.send("Vérification en cours...")
         setTimeout(async function () { // attente de 5 sec avant la véri
 
-            const etat = await fetch(`https://sheetdb.io/api/v1/75c0dvnrsoaz8/search?etat_wl=Vrai&discordid=${member.id}`)
+            const etat = await fetch(`${config.bot.api_key}/search?etat_wl=Vrai&discordid=${member.id}`)
 
 
 
